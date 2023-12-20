@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "JLYeB3QYGFUct7SNzvJIJFqBGV3SGexS4dT6+EiWkB0=",
+  "Source": "BookAdict",
+  "BasePath": "_content/BookAdict",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "BookAdict\\wwwroot",
+      "Source": "BookAdict",
+      "ContentRoot": "D:\\Main Project\\BookAdict Backend\\BookAdict\\wwwroot\\",
+      "BasePath": "_content/BookAdict",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

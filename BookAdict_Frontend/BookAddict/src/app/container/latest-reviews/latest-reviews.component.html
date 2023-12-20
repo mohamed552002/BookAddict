@@ -1,0 +1,53 @@
+<div class="latest-reviews">
+  <a href="#" class="text-uppercase ps-5" >Latest Book Reviews</a>
+
+<div class="reviewss-card d-flex justify-content-around row mt-5" >
+
+  <div *ngFor="let i of [].constructor(4); let j = index" class="review-card col-3 p-0 mt-4"appBoxHover >
+    <div class="review-header">
+      <p class="p-3 m-0"><q>The GodFather</q></p>
+    </div>
+    <div class="book-review">
+      <p class="m-0" style="font-family:cursive;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis dolore iure praesentium.</p>
+    </div>
+    <div class="user-review row">
+      <div class="review-user-text col-8">
+        <p class="p-3 m-0">Mohamed alaa</p>
+        <div class="review-rate ps-3 pb-3" >
+          <span style="color: orange;" *ngFor="let i of [].constructor(3); let j = index"><fa-icon [icon]="faStar"></fa-icon></span>
+          <span *ngFor="let i of [].constructor(2); let j = index"><fa-icon [icon]="faStar"></fa-icon></span>
+          <span class="ps-3 m-0">3</span>
+        </div>
+      </div>
+      <div class="user-photo col-4 d-flex align-items-center">
+        <img class="profile-photo " src="../../../assets/images/person.jpg">
+      </div>
+    </div>
+  </div>
+  <!-- <div class="book-card col-3 p-0 mt-4" appBoxHover >
+    <div class="book-image">
+      <img class="" src="../../../assets/images/The_God_Father_Book_Cover.jpg" class="w-100" alt="...">
+    </div>
+    <div class="book-body">
+      <p class="p-3 m-0">The GodFather</p>
+    </div>
+  </div>
+  <div class="book-card col-3 p-0 mt-4" appBoxHover>
+    <div class="book-image">
+      <img src="../../../assets/images/The_God_Father_Book_Cover.jpg" class="w-100" alt="...">
+    </div>
+    <div class="book-body">
+      <p class="p-3 m-0">The GodFather</p>
+    </div>
+  </div>
+  <div class="book-card col-3 p-0 mt-4" appBoxHover>
+    <div class="book-image">
+      <img src="../../../assets/images/The_God_Father_Book_Cover.jpg" class="w-100" alt="...">
+    </div>
+    <div class="book-body">
+      <p class="p-3 m-0">The GodFather</p>
+    </div>
+  </div> -->
+</div>
+</div>
+

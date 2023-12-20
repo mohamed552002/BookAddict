@@ -1,0 +1,185 @@
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\appsettings.json
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\BookAdict.exe
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\BookAdict.deps.json
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\BookAdict.runtimeconfig.json
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\BookAdict.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\BookAdict.pdb
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\BookAdict.csproj.AssemblyReference.cache
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\BookAdict.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\BookAdict.AssemblyInfoInputs.cache
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\BookAdict.AssemblyInfo.cs
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\BookAdict.csproj.CoreCompileInputs.cache
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\BookAdict.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\BookAdict.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\staticwebassets\msbuild.BookAdict.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\staticwebassets\msbuild.build.BookAdict.props
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BookAdict.props
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BookAdict.props
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\scopedcss\bundle\BookAdict.styles.css
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\BookAdict.csproj.CopyComplete
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\BookAdict.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\refint\BookAdict.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\BookAdict.pdb
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\BookAdict.genruntimeconfig.cache
+C:\Users\mozam\source\repos\BookAdict\BookAdict\obj\Debug\net6.0\ref\BookAdict.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Azure.Identity.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Humanizer.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\Mono.TextTemplating.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\DataRepo.Ef.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\DataRepo.Ef.pdb
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\DataRepository.Core.dll
+C:\Users\mozam\source\repos\BookAdict\BookAdict\bin\Debug\net6.0\DataRepository.Core.pdb
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\appsettings.Development.json
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\appsettings.json
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\BookAdict.exe
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\BookAdict.deps.json
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\BookAdict.runtimeconfig.json
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\BookAdict.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\BookAdict.pdb
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Azure.Core.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Azure.Identity.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Humanizer.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.Logging.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.Options.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.SqlServer.Server.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Mono.TextTemplating.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\System.CodeDom.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\System.Drawing.Common.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\System.Memory.Data.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\System.Runtime.Caching.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\System.Text.Encodings.Web.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\System.Text.Json.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\System.Windows.Extensions.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\DataRepo.Ef.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\DataRepository.Core.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\DataRepo.Ef.pdb
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\DataRepository.Core.pdb
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\BookAdict.csproj.AssemblyReference.cache
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\BookAdict.GeneratedMSBuildEditorConfig.editorconfig
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\BookAdict.AssemblyInfoInputs.cache
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\BookAdict.AssemblyInfo.cs
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\BookAdict.csproj.CoreCompileInputs.cache
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\BookAdict.MvcApplicationPartsAssemblyInfo.cs
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\BookAdict.MvcApplicationPartsAssemblyInfo.cache
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\staticwebassets\msbuild.BookAdict.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\staticwebassets\msbuild.build.BookAdict.props
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.BookAdict.props
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.BookAdict.props
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\staticwebassets.build.json
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\staticwebassets.development.json
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\scopedcss\bundle\BookAdict.styles.css
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\BookAdict.csproj.CopyComplete
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\BookAdict.dll
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\refint\BookAdict.dll
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\BookAdict.pdb
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\BookAdict.genruntimeconfig.cache
+D:\Main Project\BookAdict Backend\BookAdict\obj\Debug\net6.0\ref\BookAdict.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\AutoMapper.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Main Project\BookAdict Backend\BookAdict\bin\Debug\net6.0\BookAdict.staticwebassets.runtime.json

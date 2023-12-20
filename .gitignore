@@ -1,0 +1,45 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# Compiled output
+BookAdict_Frontend/BookAddict/dist
+BookAdict_Frontend/BookAddict/tmp
+BookAdict_Frontend/BookAddict/out-tsc
+BookAdict_Frontend/BookAddict/bazel-out
+
+# Node
+BookAdict_Frontend/BookAddict/node_modules
+BookAdict_Frontend/BookAddict/npm-debug.log
+BookAdict_Frontend/BookAddict/yarn-error.log
+
+# IDEs and editors
+BookAdict_Frontend/BookAddict/.idea/
+BookAdict_Frontend/BookAddict/.project
+BookAdict_Frontend/BookAddict/.classpath
+BookAdict_Frontend/BookAddict/.c9/
+*.launch
+BookAdict_Frontend/BookAddict/.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+BookAdict_Frontend/BookAddict/.vscode/*
+BookAdict_Frontend/BookAddict/!.vscode/settings.json
+BookAdict_Frontend/BookAddict/!.vscode/tasks.json
+BookAdict_Frontend/BookAddict/!.vscode/launch.json
+BookAdict_Frontend/BookAddict/!.vscode/extensions.json
+BookAdict_Frontend/BookAddict/.history/*
+
+# Miscellaneous
+BookAdict_Frontend/BookAddict/.angular/cache
+BookAdict_Frontend/BookAddict/.sass-cache/
+BookAdict_Frontend/BookAddict/connect.lock
+BookAdict_Frontend/BookAddict/coverage
+BookAdict_Frontend/BookAddict/libpeerconnection.log
+BookAdict_Frontend/BookAddict/testem.log
+BookAdict_Frontend/BookAddict/typings
+
+# System files
+BookAdict_Frontend/BookAddict/.DS_Store
+BookAdict_Frontend/BookAddict/Thumbs.db
+
+#App Settings
+BookAdict_Backend/BookAdict/appsettings

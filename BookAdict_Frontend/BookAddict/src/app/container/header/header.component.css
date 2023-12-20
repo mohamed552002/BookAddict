@@ -1,0 +1,20 @@
+.nav{
+  background-color: var(--main-color);
+  /* width: 100%; */
+}
+.nav .links a{
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  height: fit-content;
+  margin-right: 5vw;
+  font-weight:500;
+}
+.nav .links a:last-child{
+  background-color: #00000063;
+  border-radius: 25px;
+}
+.nav .links a:hover{
+  color: white;
+  transition: 0.4s;
+}

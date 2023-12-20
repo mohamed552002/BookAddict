@@ -1,0 +1,34 @@
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\bin\Debug\net6.0\DataRepo.Ef.deps.json
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\bin\Debug\net6.0\DataRepo.Ef.runtimeconfig.json
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\bin\Debug\net6.0\DataRepo.Ef.dll
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\bin\Debug\net6.0\DataRepo.Ef.pdb
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.csproj.AssemblyReference.cache
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.AssemblyInfoInputs.cache
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.AssemblyInfo.cs
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.csproj.CoreCompileInputs.cache
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.dll
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\obj\Debug\net6.0\refint\DataRepo.Ef.dll
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.pdb
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.genruntimeconfig.cache
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\obj\Debug\net6.0\ref\DataRepo.Ef.dll
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\bin\Debug\net6.0\DataRepository.Core.dll
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\bin\Debug\net6.0\DataRepository.Core.pdb
+C:\Users\mozam\source\repos\BookAdict\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.csproj.CopyComplete
+D:\Main Project\BookAdict Backend\DataRepo.Core\bin\Debug\net6.0\DataRepo.Ef.deps.json
+D:\Main Project\BookAdict Backend\DataRepo.Core\bin\Debug\net6.0\DataRepo.Ef.runtimeconfig.json
+D:\Main Project\BookAdict Backend\DataRepo.Core\bin\Debug\net6.0\DataRepo.Ef.dll
+D:\Main Project\BookAdict Backend\DataRepo.Core\bin\Debug\net6.0\DataRepo.Ef.pdb
+D:\Main Project\BookAdict Backend\DataRepo.Core\bin\Debug\net6.0\DataRepository.Core.dll
+D:\Main Project\BookAdict Backend\DataRepo.Core\bin\Debug\net6.0\DataRepository.Core.pdb
+D:\Main Project\BookAdict Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.csproj.AssemblyReference.cache
+D:\Main Project\BookAdict Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.GeneratedMSBuildEditorConfig.editorconfig
+D:\Main Project\BookAdict Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.AssemblyInfoInputs.cache
+D:\Main Project\BookAdict Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.AssemblyInfo.cs
+D:\Main Project\BookAdict Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.csproj.CoreCompileInputs.cache
+D:\Main Project\BookAdict Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.csproj.CopyComplete
+D:\Main Project\BookAdict Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.dll
+D:\Main Project\BookAdict Backend\DataRepo.Core\obj\Debug\net6.0\refint\DataRepo.Ef.dll
+D:\Main Project\BookAdict Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.pdb
+D:\Main Project\BookAdict Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.genruntimeconfig.cache
+D:\Main Project\BookAdict Backend\DataRepo.Core\obj\Debug\net6.0\ref\DataRepo.Ef.dll
