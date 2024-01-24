@@ -1,0 +1,86 @@
+<div class="main-modal mt-5"  >
+  <div class="modal-header d-flex flex-column align-items-start p-4 position-relative">
+    <div class="head d-flex justify-content-between">
+      <h5 class="">Add Book</h5>
+    </div>
+
+  </div>
+  <hr class="m-0">
+  <div class="p-4">
+    <div class="d-flex justify-content-center">
+    <div class="spinner-border"*ngIf="!isCategoryLoaded && !isAuthorLoaded" role="status">
+    </div>
+  </div>
+    <form *ngIf="isCategoryLoaded && isAuthorLoaded" class="row" [formGroup]="formgroup" (ngSubmit)="submitForm()">
+      <div class="d-flex justify-content-center mb-4">
+        <div [ngClass]="url?'bg-light':'bg-secondary'" class="card align-self-center text-center" style="width: 10rem; height:10rem; cursor:pointer;">
+          <label [hidden]="url != ''" for="book-img" class="m-auto" >
+          <fa-icon  style="cursor:pointer" class="card-img-top m-auto"  style="font-size:xxx-large;" [icon]="faPlus" alt="Card image cap"></fa-icon>
+        </label>
+          <input hidden (change)="setImage($event)" type="file" id="book-img" >
+          <img *ngIf="url " [src]="url" class="w-100 h-100">
+          </div>
+      </div>
+      <div class="form-group col-md-6 ">
+        <label for="title">Title</label>
+        <input formControlName="title"  type="text" class="form-control" id="title"  placeholder="Title">
+        <span *ngIf="formgroup.get('title').hasError('minlength') && formgroup.get('title').touched" class="text-danger">minimum characters is 2</span>
+        <span *ngIf="formgroup.get('title').hasError('required') && formgroup.get('title').touched" class="text-danger">Title is required</span>
+      </div>
+      <div class="form-group col-md-6 ">
+        <label for="ISPN">ISPN</label>
+        <input formControlName="ISPN" type="number" min="0" class="form-control" id="ISPN" placeholder="ISPN">
+        <span *ngIf="formgroup.get('ISPN').hasError('required') && formgroup.get('ISPN').touched" class="text-danger">ISPN is required</span>
+      </div>
+      <div class="form-group col-12 mt-3">
+        <label for="Description">Description</label>
+        <textarea formControlName="description"  class="form-control" id="Description"  placeholder="Description"></textarea>
+        <span *ngIf="formgroup.get('description').hasError('minlength') && formgroup.get('description').touched" class="text-danger">minimum characters is 2</span>
+        <span *ngIf="formgroup.get('description').hasError('required') && formgroup.get('description').touched" class="text-danger">Description is required</span>
+      </div>
+      <div class="form-group col-md-6 mt-3">
+        <label for="price">Price</label>
+        <input formControlName="price" type="number" class="form-control" id="price" placeholder="Price" min="0">
+        <span *ngIf="formgroup.get('price').hasError('min') && formgroup.get('price').touched" class="text-danger">Price can't be less than 0</span>
+        <span *ngIf="formgroup.get('price').hasError('required') && formgroup.get('price').touched" class="text-danger">Price is required</span>
+      </div>
+      <div class="form-group col-md-6 mt-3">
+        <label for="in stock">In stock</label>
+        <input formControlName="inStock" type="number" class="form-control" id="in stock" placeholder="in stock" min="0">
+        <span *ngIf="formgroup.get('inStock').hasError('min') && formgroup.get('inStock').touched" class="text-danger">In stock can't be less than 0</span>
+        <span *ngIf="formgroup.get('inStock').hasError('required') && formgroup.get('inStock').touched" class="text-danger">In stock is required</span>
+
+      </div>
+
+      <div class="form-group col-md-6 mt-3">
+        <label for="inputState">Categories</label>
+        <select  formControlName="categories" id="inputState" class="form-control">
+          <option disabled selected value="" >Choose Category...</option>
+          <option *ngFor="let category of categories" value="{{category.id}}">{{category.name}}</option>
+        </select>
+        <span *ngIf="formgroup.get('categories').hasError('required') && formgroup.get('categories').touched" class="text-danger">category is required</span>
+      </div>
+      <div class="form-group col-md-6 mt-3">
+        <label for="numOfSales">Number of sales</label>
+        <input formControlName="numOfSales" type="number" class="form-control" id="numOfSales" value="0">
+        <span *ngIf="formgroup.get('numOfSales').hasError('min') && formgroup.get('numOfSales').touched" class="text-danger">Number of sales can't be less than 0</span>
+        <span *ngIf="formgroup.get('numOfSales').hasError('required') && formgroup.get('numOfSales').touched" class="text-danger">In stock is required</span>
+      </div>
+      <div class="form-group col-12 mt-3">
+        <label for="Authors">Authors</label>
+        <div id="Authors" class="author-multicheck form-control d-flex flex-column justify-content-between">
+        <div *ngFor="let author of authors" class="form-group">
+          <label class="form-check-label w-25" for="{{author}}">{{author.name}}</label>
+          <input type="checkbox" (change)="checked(author)" class="form-check-input border-dark" id="{{author}}">
+        </div>
+      </div>
+      <span class="text text-danger" *ngIf="!authorSelected">Select one author at least</span>
+      </div>
+      <div class="form-group mt-3">
+        <label class="form-check-label " for="exampleCheck1">Available</label>
+        <input formControlName="isactive" type="checkbox" class="form-check-input ms-4 border-dark" id="exampleCheck1">
+      </div>
+      <button type="submit"  [disabled]="!formgroup.valid" class="btn btn-primary ms-2 mt-3" style="width:7.5rem;">Submit</button>
+    </form>
+  </div>
+</div>

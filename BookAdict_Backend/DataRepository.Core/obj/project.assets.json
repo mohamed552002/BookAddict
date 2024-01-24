@@ -567,11 +567,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Main Project\\BookAdict Backend\\DataRepository.Core\\DataRepository.Core.csproj",
+      "projectUniqueName": "D:\\Main Project\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj",
       "projectName": "DataRepository.Core",
-      "projectPath": "D:\\Main Project\\BookAdict Backend\\DataRepository.Core\\DataRepository.Core.csproj",
+      "projectPath": "D:\\Main Project\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj",
       "packagesPath": "C:\\Users\\mozam\\.nuget\\packages\\",
-      "outputPath": "D:\\Main Project\\BookAdict Backend\\DataRepository.Core\\obj\\",
+      "outputPath": "D:\\Main Project\\BookAdict_Backend\\DataRepository.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mozam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -621,7 +621,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

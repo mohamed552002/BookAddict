@@ -13,11 +13,17 @@ namespace DataRepo.Ef
     {
         private readonly ApplicationDbContext _context;
         public IBookRepo Books { get; private set; }
+        public ICategoryRepo Category { get; private set; }
+        public IAuthorRepo Author {  get; private set; }
+        public IUnitOfWork unitOfWork { get; private set; }
+
 
         public UnitOfWork(ApplicationDbContext context)
         {
             _context = context;
             Books = new BookRepo(_context);
+            Category = new CategoryRepo(_context, Books);
+            Author = new AuthorRepo(_context);
         }
         public void OnComplete()
         {

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IIwO4rGQBq3xe8bULXDqe54k5iOgAwg4UXbd774n4BNGnTus35tb9taIdw9kcXGno3ENVPgiyA/iu/YJe+/nQg==",
+  "dgSpecHash": "WNj1hLEe0uyO4tRkn2nT19faf+EsW9dVOR8X5YcOmHGS065FFz3toz4cbHQA0jmVVTcF88MBUrYZkdsrnmBW4A==",
   "success": true,
-  "projectFilePath": "D:\\Main Project\\BookAdict Backend\\DataRepository.Core\\DataRepository.Core.csproj",
+  "projectFilePath": "D:\\Main Project\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mozam\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
     "C:\\Users\\mozam\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.2\\microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",

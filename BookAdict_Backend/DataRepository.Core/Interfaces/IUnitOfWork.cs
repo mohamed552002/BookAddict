@@ -10,6 +10,8 @@ namespace DataRepository.Core.Interfaces
     public interface IUnitOfWork:IDisposable
     {
         IBookRepo Books { get; }
+        ICategoryRepo Category { get; }
+        IAuthorRepo Author { get; }
         public void OnComplete();
         public void ActionOnComplete();
     }

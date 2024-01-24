@@ -1,0 +1,63 @@
+
+.latest-reviews >a{
+  color: #454545;
+  text-decoration: none;
+  font-size: x-large;
+  font-family:'Anton', sans-serif;
+}
+.latest-reviews >a::after{
+content: ">";
+margin-left: 5px;
+color: #454545;
+font-weight: bolder;
+text-decoration: none;
+font-size: 22px;
+}
+.latest-reviews{
+  padding: 60px;
+  padding-top:0 !important;
+}
+.review-header{
+  text-align: right;
+  padding-right: 1em;
+  background-color: var(--second-color);
+  font-family: 'Anton', sans-serif;
+  font-size: large;
+}
+.review-card{
+  width: 19rem;
+  height: fit-content;
+  overflow: hidden;
+  border-radius: 15px;
+}
+.latest-reviews .book-review {
+  background-color: #eee;
+  width: 100%;
+  padding: 25px 25px;
+}
+.user-review{
+
+  background-color: var(--second-color);
+}
+.review-user-text{
+  background-color: var(--second-color);
+  font-family: 'Anton', sans-serif;
+  font-size: large;
+}
+.book-body > p{
+  font-family: 'Anton', sans-serif;
+  font-size: large;
+}
+.book-review{
+  height: 9rem;
+}
+/* .review-card:hover{
+  transform: translateY(-10px);
+  transition: 0.4s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}*/
+.profile-photo{
+  border-radius: 70px;
+  width: 60px;
+  height: 60px;
+}

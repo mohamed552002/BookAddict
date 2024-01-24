@@ -1,0 +1,35 @@
+<div class="main-modal mt-5"  >
+  <div class="modal-header d-flex flex-column align-items-start p-4 position-relative">
+    <div class="head d-flex justify-content-between">
+      <h5 class="">Authors opreations</h5>
+      <fa-icon class="add position-absolute me-4" routerLink="../addauthors" [icon]="faPlus"></fa-icon>
+    </div>
+    <p class="text-dark small m-0">Create, read, update, delete Authors</p>
+  </div>
+  <hr class="m-0">
+  <div class="p-4">
+    <div class="spinner-border ms-auto"*ngIf="!dataLoaded" role="status">
+    </div>
+    <table class="table table-hover ">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col"></th>
+          <th scope="col">Name</th>
+          <th scope="col"></th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let author of allAuthors; let i = index">
+          <th scope="row"><p class="mt-2 mb-0 p-0">{{i+1}}</p></th>
+          <td class=""><img class="authorImg" [src]="host+author.imageUrl"></td>
+          <td><p class="mt-2 mb-0 p-0">{{author.name}}</p></td>
+
+          <td><button class="btn btn-primary" routerLink="../editauthor/{{author.id}}"><fa-icon [icon]="faPenToSquare" ></fa-icon></button></td>
+          <td><button class="btn btn-danger"(click)="deleteAuthor(author)"><fa-icon [icon]="faTrash"></fa-icon></button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

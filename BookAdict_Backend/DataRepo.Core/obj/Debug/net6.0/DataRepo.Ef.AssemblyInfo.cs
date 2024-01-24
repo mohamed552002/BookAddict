@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DataRepo.Ef")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf8f29ae9e515fac67618fa4db3200cb7b06321b")]
 [assembly: System.Reflection.AssemblyProductAttribute("DataRepo.Ef")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DataRepo.Ef")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

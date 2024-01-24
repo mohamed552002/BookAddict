@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Main Project\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\2132b327-bb73-44eb-b154-3641685a1795.png",
+      "PackagePath": "staticwebassets\\Images\\2132b327-bb73-44eb-b154-3641685a1795.png"
+    },
+    {
+      "Id": "D:\\Main Project\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\29a4f4b9-01d4-46cf-9135-14a526c0bf77.jpg",
+      "PackagePath": "staticwebassets\\Images\\29a4f4b9-01d4-46cf-9135-14a526c0bf77.jpg"
+    },
+    {
+      "Id": "D:\\Main Project\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\31d19c7b-dd63-4d01-8ee7-4b156e4f3d20.PNG",
+      "PackagePath": "staticwebassets\\Images\\31d19c7b-dd63-4d01-8ee7-4b156e4f3d20.PNG"
+    },
+    {
+      "Id": "D:\\Main Project\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\45fa7788-18fc-4581-9f32-583bd786b1b8.png",
+      "PackagePath": "staticwebassets\\Images\\45fa7788-18fc-4581-9f32-583bd786b1b8.png"
+    },
+    {
+      "Id": "D:\\Main Project\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\59c605b2-f3b6-4c11-a6c7-ec3cede06c9f.png",
+      "PackagePath": "staticwebassets\\Images\\59c605b2-f3b6-4c11-a6c7-ec3cede06c9f.png"
+    },
+    {
+      "Id": "D:\\Main Project\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\6add9031-d860-49a8-a4de-89932ed6dbe6.jpg",
+      "PackagePath": "staticwebassets\\Images\\6add9031-d860-49a8-a4de-89932ed6dbe6.jpg"
+    },
+    {
+      "Id": "D:\\Main Project\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\7635643e-344d-4b98-bea8-c7bcef64df83.jpg",
+      "PackagePath": "staticwebassets\\Images\\7635643e-344d-4b98-bea8-c7bcef64df83.jpg"
+    },
+    {
+      "Id": "D:\\Main Project\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\c0018b49-e14e-4d5e-983f-56dcd575b997.png",
+      "PackagePath": "staticwebassets\\Images\\c0018b49-e14e-4d5e-983f-56dcd575b997.png"
+    },
+    {
+      "Id": "D:\\Main Project\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\c56911e2-cca7-484a-9cf9-4a2474ead037.png",
+      "PackagePath": "staticwebassets\\Images\\c56911e2-cca7-484a-9cf9-4a2474ead037.png"
+    },
+    {
+      "Id": "D:\\Main Project\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\e9b9b6e6-fb89-42f8-9238-148c02ff83e5.png",
+      "PackagePath": "staticwebassets\\Images\\e9b9b6e6-fb89-42f8-9238-148c02ff83e5.png"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.BookAdict.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.BookAdict.props",
+      "PackagePath": "build\\BookAdict.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.BookAdict.props",
+      "PackagePath": "buildMultiTargeting\\BookAdict.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.BookAdict.props",
+      "PackagePath": "buildTransitive\\BookAdict.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

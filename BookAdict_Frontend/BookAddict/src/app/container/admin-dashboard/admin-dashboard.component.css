@@ -1,0 +1,22 @@
+.card-icon{
+  background-color: #4caf50;
+  color: white;
+  padding: 20px 35px;
+  font-size: 2.3rem;
+}
+.dashboard-card{
+  border-radius: 5px;
+  overflow: hidden;
+  padding-right: 10vw;
+  margin-right: 15px;
+  box-shadow: 3px 3px 10px -5px #000;
+}
+.review{
+  background-color: #167ee6;
+}
+.books{
+  background-color: #da0c4d;
+}
+.users{
+  background-color: #4c5caf;
+}

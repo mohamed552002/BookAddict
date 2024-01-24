@@ -1,0 +1,17 @@
+.main-modal{
+  width: 100%;
+  box-shadow: 3px 3px 10px -5px black;
+  border-radius: 8px;
+}
+.add{
+  right:0;
+  padding: 5px 10px;
+  border-radius: 50px;
+}
+.add:hover{
+  background-color: #444444;
+  color: #fff;
+  transition: 0.4s;
+  cursor: pointer;
+}
+

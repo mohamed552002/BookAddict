@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Main Project\\BookAdict Backend\\DataRepo.Core\\DataRepo.Ef.csproj": {}
+    "D:\\Main Project\\BookAdict_Backend\\DataRepo.Core\\DataRepo.Ef.csproj": {}
   },
   "projects": {
-    "D:\\Main Project\\BookAdict Backend\\DataRepo.Core\\DataRepo.Ef.csproj": {
+    "D:\\Main Project\\BookAdict_Backend\\DataRepo.Core\\DataRepo.Ef.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Main Project\\BookAdict Backend\\DataRepo.Core\\DataRepo.Ef.csproj",
+        "projectUniqueName": "D:\\Main Project\\BookAdict_Backend\\DataRepo.Core\\DataRepo.Ef.csproj",
         "projectName": "DataRepo.Ef",
-        "projectPath": "D:\\Main Project\\BookAdict Backend\\DataRepo.Core\\DataRepo.Ef.csproj",
+        "projectPath": "D:\\Main Project\\BookAdict_Backend\\DataRepo.Core\\DataRepo.Ef.csproj",
         "packagesPath": "C:\\Users\\mozam\\.nuget\\packages\\",
-        "outputPath": "D:\\Main Project\\BookAdict Backend\\DataRepo.Core\\obj\\",
+        "outputPath": "D:\\Main Project\\BookAdict_Backend\\DataRepo.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mozam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Main Project\\BookAdict Backend\\DataRepository.Core\\DataRepository.Core.csproj": {
-                "projectPath": "D:\\Main Project\\BookAdict Backend\\DataRepository.Core\\DataRepository.Core.csproj"
+              "D:\\Main Project\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj": {
+                "projectPath": "D:\\Main Project\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj"
               }
             }
           }
@@ -44,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.26, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.0.2, )"
@@ -75,18 +83,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Main Project\\BookAdict Backend\\DataRepository.Core\\DataRepository.Core.csproj": {
+    "D:\\Main Project\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Main Project\\BookAdict Backend\\DataRepository.Core\\DataRepository.Core.csproj",
+        "projectUniqueName": "D:\\Main Project\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj",
         "projectName": "DataRepository.Core",
-        "projectPath": "D:\\Main Project\\BookAdict Backend\\DataRepository.Core\\DataRepository.Core.csproj",
+        "projectPath": "D:\\Main Project\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj",
         "packagesPath": "C:\\Users\\mozam\\.nuget\\packages\\",
-        "outputPath": "D:\\Main Project\\BookAdict Backend\\DataRepository.Core\\obj\\",
+        "outputPath": "D:\\Main Project\\BookAdict_Backend\\DataRepository.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mozam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -136,7 +144,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

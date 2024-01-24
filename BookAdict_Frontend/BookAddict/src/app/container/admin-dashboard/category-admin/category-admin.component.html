@@ -1,0 +1,37 @@
+<div class="main-modal mt-5"  >
+  <div class="modal-header d-flex flex-column align-items-start p-4 position-relative">
+    <div class="head d-flex justify-content-between">
+      <h5 class="">Category opreations</h5>
+      <fa-icon class="add position-absolute me-4" routerLink="../addcategory" [icon]="faPlus"></fa-icon>
+    </div>
+    <p class="text-dark small m-0">Create, read, update, delete Categories</p>
+  </div>
+  <hr class="m-0">
+  <div class="d-flex justify-content-center">
+    <div class="spinner-border"*ngIf="!dataLoaded" role="status">
+    </div>
+  </div>
+  <div *ngIf="dataLoaded" class="p-4">
+    <table class="table table-hover ">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Is Active</th>
+          <th scope="col"></th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr *ngFor="let category of categories; let i = index">
+          <th scope="row">{{i+1}}</th>
+          <td>{{category.name}}</td>
+          <td><input type="checkbox" [checked] = "category.isActive" disabled></td>
+          <td><button class="btn btn-primary" routerLink="../editcategory/{{category.id}}"><fa-icon [icon]="faPenToSquare" ></fa-icon></button></td>
+          <td><button class="btn btn-danger"(click)="deleteCategory(category)"><fa-icon [icon]="faTrash"></fa-icon></button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

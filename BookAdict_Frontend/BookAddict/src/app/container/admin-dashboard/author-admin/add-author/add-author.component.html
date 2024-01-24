@@ -1,0 +1,39 @@
+<div class="main-modal mt-5"  >
+  <div class="modal-header d-flex flex-column align-items-start p-4 position-relative">
+    <div class="head d-flex justify-content-between">
+      <h5 class="">Add Author</h5>
+    </div>
+
+  </div>
+  <hr class="m-0">
+  <div class="p-4">
+    <form class="row" [formGroup]="formgroup" (ngSubmit)="submitForm()">
+      <div class="d-flex justify-content-center mb-4">
+        <div [ngClass]="url?'bg-light':'bg-secondary'" class="card align-self-center text-center" style="width: 10rem; height:10rem; cursor:pointer;">
+          <label *ngIf="url == ''" for="book-img" class="m-auto w-100 h-100 d-flex justify-content-center"  style="cursor:pointer;">
+          <fa-icon  style="cursor:pointer" class="card-img-top m-auto"  style="font-size:xxx-large;" [icon]="faPlus" alt="Card image cap"></fa-icon>
+        </label>
+          <input hidden formControlName="imageUrl" (change)="setImage($event)" type="file" id="book-img" >
+          <img *ngIf="url " [src]="url" class="w-100 h-100">
+          </div>
+      </div>
+      <div class="form-group col-12 ">
+        <label for="name">Name</label>
+        <input formControlName="name" type="text" class="form-control" id="name"  placeholder="Name">
+        <span *ngIf = "formgroup.get('name').hasError('required') && formgroup.get('name').touched  " class="text-danger mt-1">Name is required</span>
+        <span *ngIf = "formgroup.get('name').hasError('minlength') && formgroup.get('name').touched  " class="text-danger mt-1">Name must be more than 2 letters</span>
+      </div>
+      <div class="form-group col-12 mt-3">
+        <label for="biography">Biography</label>
+        <textarea formControlName="biography" class="form-control" id="biography"  placeholder="biography"></textarea>
+        <span *ngIf = "formgroup.get('biography').hasError('required') && formgroup.get('biography').touched  " class="text-danger mt-1">Biography is required</span>
+        <span *ngIf = "formgroup.get('biography').hasError('minlength') && formgroup.get('biography').touched  " class="text-danger mt-1">Biography must be more than 4 letters</span>
+      </div>
+      <!-- <div class="form-group mt-3">
+        <label class="form-check-label " for="exampleCheck1">Available</label>
+        <input type="checkbox" class="form-check-input ms-4 border-dark" id="exampleCheck1">
+      </div> -->
+      <button type="submit" [disabled] = "!formgroup.valid" class="btn btn-primary ms-2 mt-3" style="width:7.5rem;">Submit</button>
+    </form>
+  </div>
+</div>

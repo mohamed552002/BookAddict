@@ -1,0 +1,52 @@
+<div class="d-flex">
+<sidebar-dashboard style="background-color:#f8f9fa ;"></sidebar-dashboard>
+<div class=" p-5 overflow-hidden">
+  <div class="cards d-flex">
+  <div class="dashboard-card d-flex align-items-center">
+    <div class="card-icon d-flex">
+      <div class="card-img align-self-center">
+        <fa-icon [icon]="faDollarSign"></fa-icon>
+      </div>
+    </div>
+    <div class="card-text mx-4">
+      <p class="m-0 p-0 mt-2 text-secondary">Earning</p>
+      <h3 class="m-0 p-0 py-2 ">22,520</h3>
+    </div>
+  </div>
+  <div class="dashboard-card d-flex align-items-center">
+    <div class="card-icon review d-flex">
+      <div class="card-img align-self-center">
+        <fa-icon [icon]="faScroll"></fa-icon>
+      </div>
+    </div>
+    <div class="card-text  mx-4">
+      <p class="m-0 p-0 mt-2 text-secondary">Reviews</p>
+      <h3 class="m-0 p-0 py-2 ">200</h3>
+    </div>
+  </div>
+  <div class="dashboard-card d-flex align-items-center">
+    <div class="card-icon users d-flex">
+      <div class="card-img align-self-center">
+        <fa-icon [icon]="faUser"></fa-icon>
+      </div>
+    </div>
+    <div class="card-text mx-4">
+      <p class="m-0 p-0 mt-2 text-secondary">Users</p>
+      <h3 class="m-0 p-0 py-2 ">2</h3>
+    </div>
+  </div>
+  <div class="dashboard-card d-flex align-items-center m-0">
+    <div class="card-icon books d-flex">
+      <div class="card-img align-self-center">
+        <fa-icon [icon]="faBook"></fa-icon>
+      </div>
+    </div>
+    <div class="card-text mx-4">
+      <p class="m-0 p-0 mt-2 text-secondary">Books</p>
+      <h3 class="m-0 p-0 py-2 ">10</h3>
+    </div>
+  </div>
+</div>
+<router-outlet></router-outlet>
+</div>
+</div>

@@ -22,3 +22,16 @@ D:\Main Project\BookAdict Backend\DataRepository.Core\obj\Debug\net6.0\DataRepos
 D:\Main Project\BookAdict Backend\DataRepository.Core\obj\Debug\net6.0\refint\DataRepository.Core.dll
 D:\Main Project\BookAdict Backend\DataRepository.Core\obj\Debug\net6.0\DataRepository.Core.pdb
 D:\Main Project\BookAdict Backend\DataRepository.Core\obj\Debug\net6.0\ref\DataRepository.Core.dll
+D:\Main Project\BookAdict_Backend\DataRepository.Core\bin\Debug\net6.0\DataRepository.Core.deps.json
+D:\Main Project\BookAdict_Backend\DataRepository.Core\bin\Debug\net6.0\DataRepository.Core.dll
+D:\Main Project\BookAdict_Backend\DataRepository.Core\bin\Debug\net6.0\DataRepository.Core.pdb
+D:\Main Project\BookAdict_Backend\DataRepository.Core\obj\Debug\net6.0\DataRepository.Core.csproj.AssemblyReference.cache
+D:\Main Project\BookAdict_Backend\DataRepository.Core\obj\Debug\net6.0\DataRepository.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Main Project\BookAdict_Backend\DataRepository.Core\obj\Debug\net6.0\DataRepository.Core.AssemblyInfoInputs.cache
+D:\Main Project\BookAdict_Backend\DataRepository.Core\obj\Debug\net6.0\DataRepository.Core.AssemblyInfo.cs
+D:\Main Project\BookAdict_Backend\DataRepository.Core\obj\Debug\net6.0\DataRepository.Core.csproj.CoreCompileInputs.cache
+D:\Main Project\BookAdict_Backend\DataRepository.Core\obj\Debug\net6.0\DataRepository.Core.dll
+D:\Main Project\BookAdict_Backend\DataRepository.Core\obj\Debug\net6.0\refint\DataRepository.Core.dll
+D:\Main Project\BookAdict_Backend\DataRepository.Core\obj\Debug\net6.0\DataRepository.Core.pdb
+D:\Main Project\BookAdict_Backend\DataRepository.Core\obj\Debug\net6.0\ref\DataRepository.Core.dll
+D:\Main Project\BookAdict_Backend\DataRepository.Core\obj\Debug\net6.0\DataRepository.Core.sourcelink.json

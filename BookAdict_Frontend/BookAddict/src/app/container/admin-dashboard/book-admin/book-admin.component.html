@@ -1,0 +1,40 @@
+<div class="main-modal mt-5"  >
+  <div class="modal-header d-flex flex-column align-items-start p-4 position-relative">
+    <div class="head d-flex justify-content-between">
+      <h5 class="">Books opreations</h5>
+      <fa-icon class="add position-absolute me-4" routerLink="../addbook" [icon]="faPlus"></fa-icon>
+    </div>
+    <p class="text-dark small m-0">Create, read, update, delete books</p>
+  </div>
+  <hr class="m-0">
+  <div class="p-4">
+    <div class="d-flex justify-content-center">
+      <div class="spinner-border"*ngIf="!isLoaded" role="status">
+      </div>
+    </div>
+    <table *ngIf="isLoaded" class="table table-hover ">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Price</th>
+          <th scope="col">Category</th>
+          <th scope="col">Num of sales</th>
+          <th scope="col"></th>
+          <th scope="col"></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let book of books">
+          <th scope="row">1</th>
+          <td>{{book.title}}</td>
+          <td>{{book.price}}</td>
+          <td>{{book.categoryName}}</td>
+          <td>{{book.numberOfSales}}</td>
+          <td><button class="btn btn-primary" routerLink="../editbook/{{book.id}}"><fa-icon [icon]="faPenToSquare"></fa-icon></button></td>
+          <td><button class="btn btn-danger"><fa-icon [icon]="faTrash"></fa-icon></button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

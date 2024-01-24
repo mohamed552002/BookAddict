@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace DataRepository.Core.Models
 {
@@ -9,8 +10,10 @@ namespace DataRepository.Core.Models
         public string Name { get; set; }
         [Required, MinLength(4), MaxLength(512)]
         public string Description { get; set; }
+        public bool IsActive { get; set; } = true;
         public DateTime CreationDate { get; set; }
         public DateTime LastUpdatedAt { get; set; }
+        [JsonIgnore(Condition =JsonIgnoreCondition.WhenWritingNull)]
         public virtual ICollection<Book> Books { get; set; }
     }
 }
