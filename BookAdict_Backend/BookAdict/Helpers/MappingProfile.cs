@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using DataRepository.Core.Dtos;
 using DataRepository.Core.DTOS.AuthorDtos;
 using DataRepository.Core.DTOS.BookDtos;
 using DataRepository.Core.DTOS.CategoryDtos;
@@ -20,6 +21,10 @@ namespace BookAdict.Helpers
             CreateMap<Category, CategoryDto>();
             CreateMap<Books_Authors,AuthorDto>().IncludeMembers(src=>src.Author);
             CreateMap<Books_Authors, BookDto>().IncludeMembers(src=>src.Books);
+            CreateMap<ApplicationUser, RegisterRequestDto>().ReverseMap();
+            CreateMap<ApplicationUser, RegisterRequestDto>().ReverseMap();
+            CreateMap<ApplicationUser, ApplicationUserDto>().ReverseMap();
+
             //CreateMap<Book, BookDto>().IncludeMembers(src => src.Authors);
         }
     }

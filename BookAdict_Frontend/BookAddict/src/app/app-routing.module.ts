@@ -11,10 +11,12 @@ import { AddCategoryComponent } from './container/admin-dashboard/category-admin
 import { EditCategoryComponent } from './container/admin-dashboard/category-admin/edit-category/edit-category.component';
 import { EditAuthorComponent } from './container/admin-dashboard/author-admin/edit-author/edit-author.component';
 import { EditBookComponent } from './container/admin-dashboard/book-admin/edit-book/edit-book.component';
+import { AuthenticationComponent } from './container/authentication/authentication.component';
+import { CanActivateAdmin } from './container/authentication/auth.gaurd.service';
 
 const routes: Routes = [
   {path: "", component:HomeComponent},
-  {path: "dashboard" , component:AdminDashboardComponent , children:[
+  {path: "dashboard" , component:AdminDashboardComponent, canActivate:[CanActivateAdmin] , children:[
     {path:"book" , component:BookAdminComponent },
     {path:"authors" , component:AuthorAdminComponent},
     {path:"category", component:CategoryAdminComponent},
@@ -25,6 +27,7 @@ const routes: Routes = [
     {path:"editauthor/:id",component:EditAuthorComponent},
     {path:"editbook/:id",component:EditBookComponent},
   ]},
+  {path:"auth" , component:AuthenticationComponent}
 ];
 
 @NgModule({

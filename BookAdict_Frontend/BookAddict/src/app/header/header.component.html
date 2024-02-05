@@ -21,8 +21,9 @@
       <a class="nav-item nav-link  mx-lg-2 text-light"[routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" routerLink="">Home</a>
       <a class="nav-item nav-link mx-lg-2 text-light" routerLinkActive="active" href="#">Authors</a>
       <a class="nav-item nav-link mx-lg-2 text-light" routerLinkActive="active" href="#">Books</a>
-      <a class="nav-item nav-link mx-lg-2 text-light" routerLink="/dashboard">Dashboard</a>
-      <a class="nav-item nav-link mx-lg-2 text-light" routerLinkActive="active" href="#">SignIn</a>
+      <a class="nav-item nav-link mx-lg-2 text-light" routerLink="/dashboard"*ngIf="isAuthenticated && user.roles.includes('admin')" >Dashboard</a>
+      <a class="nav-item nav-link mx-lg-2 text-light" routerLinkActive="active" routerLink="./auth" *ngIf="!isAuthenticated">SignIn</a>
+      <a class="nav-item nav-link mx-lg-2 text-light" routerLinkActive="active" routerLink="" (click) = LogOut() *ngIf="isAuthenticated">Log Out</a>
     </div>
   </div>
 </nav>

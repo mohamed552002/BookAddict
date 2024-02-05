@@ -8,6 +8,8 @@ using DataRepository.Core.DTOS.BookDtos;
 using DataRepository.Core.Interfaces;
 using DataRepository.Core.Models;
 using MediatR;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -27,7 +29,6 @@ namespace BookAdict.Controllers
 
         //private readonly IBaseRepository<Book> _bookRepository;
 
-
         [HttpGet("GetAllBooks")]
         public async Task<IActionResult> GetAllBooks()
         {
@@ -42,6 +43,7 @@ namespace BookAdict.Controllers
             var result = await _mediator.Send(query);
             return result == null ? NotFound("This book not found") : Ok(result);
         }
+        [Authorize(Roles = "admin")]
         [HttpPost("AddBook")]
         public async Task<IActionResult> AddBook([FromForm] BookInsertDto bookInDto)
         {
@@ -52,6 +54,7 @@ namespace BookAdict.Controllers
                 return Ok(result);
             
         }
+        [Authorize(Roles = "admin")]
         [HttpPut("UpdateBook")]
         public async Task<IActionResult> UpdateBook([FromForm] BookInsertDto bookInDto)
         {
@@ -75,6 +78,7 @@ namespace BookAdict.Controllers
         //    return Ok(book);
 
         //}
+        [Authorize(Roles = "admin")]
         [HttpDelete("DeleteBook/{id}")]
         public async Task<IActionResult> Deletebook(int id)
         {

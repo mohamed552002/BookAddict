@@ -31,7 +31,7 @@ export class EditAuthorComponent implements OnInit,OnDestroy {
 
     this.authorApi.getAuthor(this.authorId).subscribe((data)=>{
       this.author = data;
-      this.url = "https://localhost:7153" + data.imageUrl
+      this.url = this.authorApi.localhost + data.imageUrl
       this.initializeForm();
       this.isLoaded = true;
     })

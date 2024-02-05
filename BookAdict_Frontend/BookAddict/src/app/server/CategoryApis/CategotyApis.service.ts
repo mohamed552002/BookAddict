@@ -3,12 +3,15 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Category } from "../../Models/Category";
 import { Observable } from "rxjs";
 import { map } from "rxjs/operators";
+import { BaseApi } from "../BaseApi";
 @Injectable({
   providedIn:"root"
 })
-export class CategoryApisService{
-private apiUrl = "https://localhost:7153/api/Category/";
-constructor(private http:HttpClient) {}
+export class CategoryApisService extends BaseApi {
+private apiUrl = this.localhost + "api/Category/";
+constructor(private http:HttpClient) {
+  super()
+}
 postCategory(Category:Category):Observable<any>{
   return this.http.post<any>(`${this.apiUrl}AddCategory`,Category);
 }

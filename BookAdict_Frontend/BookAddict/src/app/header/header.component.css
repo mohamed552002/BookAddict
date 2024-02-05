@@ -1,5 +1,9 @@
+nav{
+  z-index: 1000000;
+}
 .nav{
   background-color: var(--main-color);
+
   /* width: 100%; */
 }
 .nav .links a{

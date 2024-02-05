@@ -29,7 +29,7 @@
           <th scope="row">1</th>
           <td>{{book.title}}</td>
           <td>{{book.price}}</td>
-          <td>{{book.categoryName}}</td>
+          <td>{{book.category.name}}</td>
           <td>{{book.numberOfSales}}</td>
           <td><button class="btn btn-primary" routerLink="../editbook/{{book.id}}"><fa-icon [icon]="faPenToSquare"></fa-icon></button></td>
           <td><button class="btn btn-danger"><fa-icon [icon]="faTrash"></fa-icon></button></td>

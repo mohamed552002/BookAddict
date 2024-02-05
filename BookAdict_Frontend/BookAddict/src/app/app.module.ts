@@ -21,11 +21,15 @@ import { AuthorAdminComponent } from './container/admin-dashboard/author-admin/a
 import { AddAuthorComponent } from './container/admin-dashboard/author-admin/add-author/add-author.component';
 import { CategoryAdminComponent } from './container/admin-dashboard/category-admin/category-admin.component';
 import { AddCategoryComponent } from './container/admin-dashboard/category-admin/add-category/add-category.component'
-import { ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule, provideHttpClient, withFetch } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HTTP_INTERCEPTORS, HttpClientModule, provideHttpClient, withFetch } from '@angular/common/http';
 import { EditCategoryComponent } from './container/admin-dashboard/category-admin/edit-category/edit-category.component';
 import { EditBookComponent } from './container/admin-dashboard/book-admin/edit-book/edit-book.component';
 import { EditAuthorComponent } from './container/admin-dashboard/author-admin/edit-author/edit-author.component';
+import { AuthenticationComponent } from './container/authentication/authentication.component';
+import { LoadingspinnerComponent } from './container/loading-spinner/loading-spinner.component';
+import { AuthInterceptor } from './container/authentication/auth-interceptor.service';
+import { SSLbybass } from './services/SSLBybass.interceptor';
 @NgModule({
   declarations: [
     AppComponent,
@@ -46,7 +50,9 @@ import { EditAuthorComponent } from './container/admin-dashboard/author-admin/ed
     AddCategoryComponent,
     EditCategoryComponent,
     EditBookComponent,
-    EditAuthorComponent
+    EditAuthorComponent,
+    AuthenticationComponent,
+    LoadingspinnerComponent
   ],
   imports: [
     BrowserModule,
@@ -55,10 +61,13 @@ import { EditAuthorComponent } from './container/admin-dashboard/author-admin/ed
     MatSlideToggleModule,
     FontAwesomeModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
     provideClientHydration(),
+    {provide: HTTP_INTERCEPTORS , useClass:AuthInterceptor , multi:true },
+    {provide:HTTP_INTERCEPTORS, useClass:SSLbybass , multi:true},
     provideHttpClient(withFetch())
   ],
   bootstrap: [AppComponent]

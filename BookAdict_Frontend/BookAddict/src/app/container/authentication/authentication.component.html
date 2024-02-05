@@ -1,0 +1,68 @@
+<div class="modal d-block" id="exampleModalCenter"  >
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content " style="height: 70vh; border:none; box-shadow: 0px 10px 40px -15px;">
+      <div *ngIf="isLoading">
+        <loading-spinner></loading-spinner>
+      </div>
+      <div *ngIf="!isLoading" class="modal-body row">
+        <div   class="login col-md-6">
+          <div *ngIf="InLoginMode" class="head text-center">
+            <h2> Welcome Back </h2>
+            <p> Sign In to access your account </p>
+          </div>
+          <div class="error-alert alert alert-danger" *ngIf = error>
+            {{error}}
+          </div>
+          <form *ngIf="InLoginMode" #loginForm="ngForm" (ngSubmit) = "Login(loginForm)" class="login-form form-group">
+            <div class="form-group mt-1">
+              <label for="email">Email</label>
+              <input name="email" ngModel class="form-control" type="email" email minlength="5" required  id="email">
+            </div>
+            <div class="form-group mt-1">
+              <label for="email">password</label>
+              <input name="password" ngModel class="form-control" type="password" required  id="password">
+            </div>
+            <button class="btn mt-3">Login</button>
+          </form>
+          <div *ngIf="InLoginMode" class="text-center mt-2 d-flex justify-content-around">
+            <a class="forgot-password-link " href="#">Forgot Password ?</a>
+            <p class="switchBtn " (click)="switchMode()">No Account?</p>
+          </div>
+        </div>
+        <div class="right-side col-md-6">
+          <img [ngClass]="InLoginMode ? 'imgTransitonToLeft' : 'imgTransitonToRight'" class="image-half" src="assets/images/auth.jpg">
+          <div *ngIf="!InLoginMode" class="signup">
+            <div class="head text-center">
+              <h2> Hello Reader</h2>
+              <p> Register to the greatist book store </p>
+            </div>
+
+            <form #signupForm = "ngForm" (ngSubmit)="signupSubmit(signupForm)" class="signup-form form-group d-flex flex-column">
+              <div class="form-group mt-1">
+                <label for="fname">First Name</label>
+                <input name="Fname" ngModel class="form-control" type="text" required  id="fname">
+              </div>
+              <div class="form-group mt-1">
+                <label for="lname">Last Name</label>
+                <input name="Lname" ngModel class="form-control" type="text" required  id="lname">
+              </div>
+              <div class="form-group mt-1">
+                <label for="email">Email</label>
+                <input name="email" ngModel class="form-control" type="email" required  id="email">
+              </div>
+              <div class="form-group mt-1">
+                <label for="email">password</label>
+                <input name="password" ngModel class="form-control" type="password" required  id="password">
+              </div>
+              <button class="btn mt-3">Sign Up</button>
+            </form>
+
+            <div class=" text-center mt-2">
+              <p class="switchBtn" (click)="switchMode()" >Already Have Acoount ?</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

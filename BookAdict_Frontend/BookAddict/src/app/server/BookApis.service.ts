@@ -1,16 +1,20 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { Observable } from "rxjs";
+import { Observable, catchError } from "rxjs";
 import { json } from "stream/consumers";
+import { BaseApi } from "./BaseApi";
+import { error } from "console";
 
 @Injectable({
   providedIn:"root"
 })
-export class BookApis{
-  private apiUrl = "https://localhost:7153/api/Book/";
-  constructor(private http:HttpClient){}
+export class BookApis extends BaseApi{
+  private apiUrl =  this.localhost +"api/Book/";
+  constructor(private http:HttpClient){
+    super()
+  }
   PostBook(book:any):Observable<any>{
-    return this.http.post(`${this.apiUrl}AddBook`,book);
+    return this.http.post(`${this.apiUrl}AddBook`,book).pipe();
   }
   GetBooks():Observable<any>{
     return this.http.get(`${this.apiUrl}GetAllBooks`);
