@@ -9,8 +9,9 @@ namespace DataRepository.Core.Interfaces
 {
     public interface IBookRepo
     {
-        public Task<IEnumerable<Book>> GetAllBooksAsync();
+        public Task<IEnumerable<Book>> GetAllBooksAsync(string? sortBy , string? categoryId);
         public Task<Book> GetBookAsync(int id);
+        public Task<IEnumerable<Book>> SearchBookByName(string searchText);
         public Task AddBookAsync(Book book, List<int> authorsIds);
         public Task UpdateBookAsync(Book book, List<int> authorsIds);
         public Task<Book> DeleteBookAsync(int id);

@@ -32,6 +32,13 @@ namespace BookAdict.Controllers
                 return NotFound("No Author with this id found");
             return Ok(_mapper.Map<AuthorDto>(author));
         }
+        [HttpGet("SearchAuthors")]
+        public async Task<IActionResult> SearchAuthors([FromQuery] string searchText)
+        {
+            
+            var authorsDto = _mapper.Map<IEnumerable<AuthorDto>>( await _unitOfWork.Author.SearchAuthors(searchText));
+            return authorsDto.Count() > 0 ? Ok(authorsDto) : NotFound(new { message = "no author found"});
+        }
         [HttpPost("AddAuthor")]
         public async Task<IActionResult> AddAuthor([FromForm] AuthorInDto authorInDto)
         {

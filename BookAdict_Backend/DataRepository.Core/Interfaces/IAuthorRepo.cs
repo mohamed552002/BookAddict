@@ -14,5 +14,6 @@ namespace DataRepository.Core.Interfaces
         public Task AddAuthorAsync(Author author);
         public Task UpdateAuthorAsync(Author author);
         public Task DeleteAuthorAsync(Author author);
+        public Task<IEnumerable<Author>> SearchAuthors(string searchText);
     }
 }

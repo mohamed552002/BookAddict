@@ -9,6 +9,17 @@ namespace DataRepository.Core.Models
     public class AuthModel
     {
         public AuthModel() { }
+        public AuthModel(bool isAuthenticated, ApplicationUser user, List<string> roles, string token, DateTime expiresOn)
+        {
+            IsAuthenticated = isAuthenticated;
+            Username = user.UserName;
+            Email = user.Email;
+            FirstName = user.FirstName;
+            LastName = user.Lastname;
+            Roles = roles;
+            Token = token;
+            ExpiresOn = expiresOn;
+        }
         public AuthModel(bool isAuthenticated, string username, string email, List<string> roles, string token, DateTime expiresOn)
         {
             IsAuthenticated = isAuthenticated;
@@ -20,6 +31,8 @@ namespace DataRepository.Core.Models
         }
         public bool IsAuthenticated { get; set; }
         public string Username { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
         public string Email { get; set; }
         public List<string> Roles { get; set; }
         public string Token { get; set; }

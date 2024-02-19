@@ -31,7 +31,7 @@ export class AuthApis extends BaseApi {
       Email :email,
       Password:password
     }).pipe(catchError(error =>  throwError(() => error)),tap(resData => {
-      const user = new User(resData.email,resData.roles,resData.token,resData.expireson,resData.isAuthenticated,resData.message);
+      const user = new User(resData.firstName,resData.lastName,resData.email,resData.roles,resData.token,resData.expireson,resData.isAuthenticated,resData.message);
       this.user.next(user);
       localStorage.setItem("User",JSON.stringify(user));
     }))

@@ -13,6 +13,9 @@ import { EditAuthorComponent } from './container/admin-dashboard/author-admin/ed
 import { EditBookComponent } from './container/admin-dashboard/book-admin/edit-book/edit-book.component';
 import { AuthenticationComponent } from './container/authentication/authentication.component';
 import { CanActivateAdmin } from './container/authentication/auth.gaurd.service';
+import { BooksUserComponent } from './container/books-user/books-user.component';
+import { AuthorsUserComponent } from './container/authors-user/authors-user.component';
+import { BookUserComponent } from './container/books-user/book-user/book-user.component';
 
 const routes: Routes = [
   {path: "", component:HomeComponent},
@@ -27,6 +30,9 @@ const routes: Routes = [
     {path:"editauthor/:id",component:EditAuthorComponent},
     {path:"editbook/:id",component:EditBookComponent},
   ]},
+  {path:"books", component:BooksUserComponent},
+  {path:"books/:id",component:BookUserComponent},
+  {path:"authors" , component:AuthorsUserComponent},
   {path:"auth" , component:AuthenticationComponent}
 ];
 

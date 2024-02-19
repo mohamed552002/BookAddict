@@ -21,7 +21,7 @@ namespace BookAdict.Handlers.BookHandler
         }
         public async Task<IEnumerable<BookDto>> Handle(GetAllBooksQuery request, CancellationToken cancellationToken)
         {
-            return  _mapper.Map<List<BookDto>>(await _unitOfWork.Books.GetAllBooksAsync());
+            return  _mapper.Map<List<BookDto>>(await _unitOfWork.Books.GetAllBooksAsync(request.SortBy,request.CategoryName));
         }
     }
 }

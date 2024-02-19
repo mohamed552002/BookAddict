@@ -1,4 +1,4 @@
-import { HttpClient } from "@angular/common/http";
+import { HttpClient, HttpParams } from "@angular/common/http";
 import { Injectable, numberAttribute } from "@angular/core";
 import { Author } from "../../Models/Author";
 import { Observable } from "rxjs";
@@ -21,6 +21,12 @@ export class AuthorApiService extends BaseApi {
   }
   getAuthor(id:number):Observable<any>{
     return this.http.get(`${this.apiUrl}GetAuthor/${id}`);
+  }
+
+  searchAuthor(searchText:number):Observable<any>{
+    return this.http.get(`${this.apiUrl}SearchAuthors`,{
+      params:new HttpParams().set("searchText" , searchText)
+    });
   }
   updateAuthor(author:any):Observable<any>{
     return this.http.put(`${this.apiUrl}UpdateAuthor`,author);

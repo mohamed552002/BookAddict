@@ -1,0 +1,29 @@
+<div class="author ">
+  <div class=" d-flex justify-content-between flex-row overflow-hidden ">
+    <div class="w-75 ">
+      <form #searchBox = "ngForm" (ngSubmit)="SearchAuthor(searchBox)" class="search-box d-flex form-inline w-75 my-2 my-lg-0 ms-auto  ">
+        <input name="search" ngModel class="form-control "  type="text" placeholder="Search" aria-label="Search">
+        <input class="btn  ms-1" value="Search" type="submit">
+      </form>
+    </div>
+  </div>
+  <div *ngIf="isLoading" class="text-center">
+      <loading-spinner></loading-spinner>
+  </div>
+  <h2 class="text-center mt-5" *ngIf="error && !isLoading">{{error}}</h2>
+  <div *ngIf="!isLoading" class="authors-card d-flex justify-content-between row mt-5" >
+    <a *ngFor="let author of authors" class="author-card me-1 col-3 p-0 mt-4" >
+      <div  class="author-image position-relative overflow-hidden">
+        <div class="position-absolute author-biography h-100 ">
+          <div class="overlay position-absolute bg-secondary h-100 w-100"></div>
+          <p  class=" text-break px-2 py-4  position-relative text-light">{{author.biography.substring(0,100)}} <span *ngIf="author.biography.length>100" class=" more-about text-decoration-underline"><a>more...</a></span></p>
+        </div>
+        <img src="{{host + author.imageUrl}}" class="" alt="...">
+      </div>
+      <div class="author-body d-flex flex-row justify-content-between">
+        <p class="m-0 mt-3">{{author.name}}</p>
+      </div>
+    </a>
+  </div>
+</div>
+

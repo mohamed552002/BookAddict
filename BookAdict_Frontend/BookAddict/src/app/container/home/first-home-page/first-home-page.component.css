@@ -43,7 +43,7 @@
 }
 .bestbook{
   width: 100%;
-  background-image: linear-gradient(to top,var(--second-color) 20%,var(--main-color));
+  background-image: linear-gradient(to top, white 30% , var(--main-color));
 }
 .bestbook .recommended-box > h2{
   font-size: 15px;

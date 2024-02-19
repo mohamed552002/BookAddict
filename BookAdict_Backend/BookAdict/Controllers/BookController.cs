@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using BookAdict.Commands;
+using BookAdict.Handlers.BookHandler;
 using BookAdict.Interfaces;
 using BookAdict.Queries.BookQueries;
 using BookAdict.Services;
@@ -30,9 +31,9 @@ namespace BookAdict.Controllers
         //private readonly IBaseRepository<Book> _bookRepository;
 
         [HttpGet("GetAllBooks")]
-        public async Task<IActionResult> GetAllBooks()
+        public async Task<IActionResult> GetAllBooks([FromQuery] string? sortBy , [FromQuery] string? categoryName)
         {
-            var query = new GetAllBooksQuery();
+            var query = new GetAllBooksQuery(sortBy , categoryName);
             var result = await _mediator.Send(query);
             return Ok(result);
         }
@@ -40,6 +41,13 @@ namespace BookAdict.Controllers
         public async Task<IActionResult> GetBookById([FromRoute]int id)
         {
             var query = new GetBookQuery(id);
+            var result = await _mediator.Send(query);
+            return result == null ? NotFound("This book not found") : Ok(result);
+        }
+        [HttpGet("SearchBookByName")]
+        public async Task<IActionResult> SearchBook([FromQuery] string searchText)
+        {
+            var query = new SearchBookQuery(searchText);
             var result = await _mediator.Send(query);
             return result == null ? NotFound("This book not found") : Ok(result);
         }

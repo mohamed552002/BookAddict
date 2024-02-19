@@ -1,0 +1,74 @@
+
+.author{
+  padding: 100px 15vw !important;
+}
+.author-card{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  width: 195px;
+  height: fit-content;
+  overflow: hidden;
+}
+.author-card:hover .add-to-cart{
+right: 6px;
+transition: 0.3s;
+}
+  .author-image {
+    position: relative;
+    border-radius: 25px;
+}
+.author-biography{
+  right: 100%;
+  transition: 0.3s;
+  width: 100%;
+}
+.author-biography .more-about{
+  font-weight: 500;
+  }
+.author-biography .more-about:hover{
+color: #000;
+}
+.author-biography .overlay{
+  opacity: 50%;
+}
+.author-image:hover .author-biography {
+  right: 0;
+  transition: 0.3s;
+}
+  .author-image > img {
+    width: -webkit-fill-available;
+    height: 14rem;
+    border-radius: 25px;
+}
+.author-body > p{
+  font-family: 'Rubik', sans-serif;
+}
+.author-body > p:lang(ara){
+  font-family: 'Cairo', sans-serif;
+}
+.search-box .btn{
+background-color: var(--main-color);
+color: white;
+}
+@media only screen and (max-width: 767px) {
+  .author{
+    padding: 0 20px !important;
+  }
+  .authors-card{
+    justify-content: center !important;
+  }
+}
+@font-face {
+  font-family: "Changa" sans-serif ;
+  src: url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
+  unicode-range: U+0600–U+06FF, U+0750–U+077F, U+08A0–U+08FF;
+}
+/* @media only screen and (max-width: 1023px) {
+  .author{
+    padding: 0 20px !important;
+  }
+  .authors-card{
+    justify-content: center !important;
+  }
+} */

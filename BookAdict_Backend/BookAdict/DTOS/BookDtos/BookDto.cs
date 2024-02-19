@@ -23,5 +23,6 @@ namespace DataRepository.Core.DTOS.BookDtos
         [JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         public ICollection<AuthorDto> Authors { get; set; }
         public CategoryDto Category { get; set; }
+
     }
 }

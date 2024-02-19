@@ -36,6 +36,10 @@ namespace DataRepo.Ef.Repositories
           return await _context.Author.ToListAsync();
         }
 
+        public async Task<IEnumerable<Author>> SearchAuthors(string searchText)
+        {
+            return await _context.Author.Where(author => author.Name.ToLower().Contains(searchText.ToLower())).ToListAsync();
+        }
         public async Task UpdateAuthorAsync(Author author)
         {
             _context.Update(author);

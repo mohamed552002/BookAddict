@@ -1,4 +1,5 @@
-﻿using DataRepository.Core.Interfaces;
+﻿using DataRepo.Ef.Services;
+using DataRepository.Core.Interfaces;
 using DataRepository.Core.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -22,12 +23,32 @@ namespace DataRepo.Ef.Repositories
             book.AddedAt = DateTime.Now;
             book.LastUpdatedAt = DateTime.Now;
             SetBookAuthors(book, authorsIds);
-            await _context.Books.AddAsync(book);
+            try
+            {
+                await _context.Books.AddAsync(book);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
 
-        public async Task<IEnumerable<Book>> GetAllBooksAsync() => await _context.Books
-                   .Include(b => b.Authors).ThenInclude(ba => ba.Author).Include(b=>b.Category)
-                   .ToListAsync();
+        public async Task<IEnumerable<Book>> GetAllBooksAsync(string? sortBy,string? categoryId)
+        {
+            var allBooks = "";
+            switch (sortBy)
+            {
+                case "price":
+                    var priceSortStrategy = new PriceSortStrategy(_context);
+                    return await priceSortStrategy.SortBookAsync();
+            }
+            return categoryId == null ? await new DefaultSortStrategy(_context).SortBookAsync() : 
+                await new CategorySortStrategy(_context).SortBookAsync(categoryId);
+                   
+        }
+
+        public async Task<IEnumerable<Book>> SearchBookByName(string searchText) => await _context.Books.Where(book => book.Title.Contains(searchText)).ToListAsync();
 
         public async Task<Book> GetBookAsync(int id) => await _context.Books.Where(b=>b.Id ==id).Include(b => b.Authors).ThenInclude(ba => ba.Author).Include(b => b.Category).FirstOrDefaultAsync(p=>p.Id==id);
 
@@ -86,5 +107,7 @@ namespace DataRepo.Ef.Repositories
                         .Include(b => b.Category)
                         .FirstOrDefaultAsync();
         }
+
+
     }
 }

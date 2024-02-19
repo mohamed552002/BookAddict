@@ -30,6 +30,9 @@ import { AuthenticationComponent } from './container/authentication/authenticati
 import { LoadingspinnerComponent } from './container/loading-spinner/loading-spinner.component';
 import { AuthInterceptor } from './container/authentication/auth-interceptor.service';
 import { SSLbybass } from './services/SSLBybass.interceptor';
+import { BooksUserComponent } from './container/books-user/books-user.component';
+import { AuthorsUserComponent } from './container/authors-user/authors-user.component';
+import { BookUserComponent } from './container/books-user/book-user/book-user.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -52,7 +55,10 @@ import { SSLbybass } from './services/SSLBybass.interceptor';
     EditBookComponent,
     EditAuthorComponent,
     AuthenticationComponent,
-    LoadingspinnerComponent
+    LoadingspinnerComponent,
+    BooksUserComponent,
+    AuthorsUserComponent,
+    BookUserComponent
   ],
   imports: [
     BrowserModule,

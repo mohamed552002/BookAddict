@@ -1,0 +1,41 @@
+<div class="book ">
+  <div class=" d-flex justify-content-between flex-row overflow-hidden ">
+    <div class="sorting-section w-25 me-2">
+      <select (change)="sortPage($event.target)" [(ngModel)] ="sortedOn" class="form-select "  name="" id="">
+        <option disabled selected value="">Sort By...</option>
+        <option *ngFor="let sort of sortList" (select) = sortPage(sort)  value="{{sort}}" >{{sort}}</option>
+      </select>
+    </div>
+    <div class="sorting-section w-25">
+      <select (change)="chooseCategory($event.target)" [(ngModel)] ="choosedCategory" class="form-select "  name="" id="">
+        <option disabled selected value="">Choose Category....</option>
+        <option value="all" >all</option>
+        <ng-container *ngFor="let category of allCategories">
+          <option  *ngIf="category.isActive" [value]="category.name">{{category.name}}</option>
+        </ng-container>
+      </select>
+    </div>
+    <div class="w-75 ">
+      <form #searchform = "ngForm" (ngSubmit)="search(searchform)"  class="search-box d-flex form-inline w-75 my-2 my-lg-0 ms-auto  ">
+        <input name="search" ngModel class="form-control"  type="text" placeholder="Search" aria-label="Search">
+        <input class="btn  ms-1" value="Search" type="submit">
+      </form>
+    </div>
+  </div>
+  <div class="text-center" *ngIf="isLoading">
+      <loading-spinner></loading-spinner>
+  </div>
+  <div *ngIf="!isLoading" class="books-card d-flex justify-content-between row mt-5" >
+    <a *ngFor="let book of books" (click) = "NavigateBook(book)" class="book-card me-1 col-3 p-0 mt-4" >
+      <div class="book-image">
+        <img src="{{host + book.imageUrl}}" class="" alt="...">
+        <span class="add-to-cart" (click)="addToCart(book)">+</span>
+      </div>
+      <div class="book-body d-flex flex-row justify-content-between">
+        <p class="m-0 mt-3 ">{{book.title}}</p>
+        <p class="m-0 mt-3 ms-2">{{book.price | currency}}</p>
+      </div>
+    </a>
+  </div>
+</div>
+

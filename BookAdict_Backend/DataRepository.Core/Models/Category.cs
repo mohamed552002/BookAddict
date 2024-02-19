@@ -8,7 +8,7 @@ namespace DataRepository.Core.Models
         public int Id { get; set; }
         [Required,MinLength(1),MaxLength(128)]
         public string Name { get; set; }
-        [Required, MinLength(4), MaxLength(512)]
+        [Required, MinLength(4)]
         public string Description { get; set; }
         public bool IsActive { get; set; } = true;
         public DateTime CreationDate { get; set; }

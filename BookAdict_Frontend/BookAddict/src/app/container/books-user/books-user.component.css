@@ -1,0 +1,73 @@
+
+.book{
+  padding: 100px 15vw !important;
+}
+.book-card{
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  width: 195px;
+  height: fit-content;
+  overflow: hidden;
+}
+.book-card:hover .add-to-cart{
+right: 6px;
+transition: 0.3s;
+}
+  .book-image {
+    position: relative;
+}
+  .book-image > img {
+    width: -webkit-fill-available;
+    height: 14rem;
+    border-radius: 25px;
+}
+.book-body{
+}
+.book-body > p{
+  font-family: 'Rubik', sans-serif;
+}
+.book-body > p:lang(ara){
+  font-family: 'Cairo', sans-serif;
+}
+.add-to-cart{
+  transition: 0.3s;
+  position: absolute;
+  bottom: 8px;
+  right: -50px;
+  font-size: 40px;
+  width: 40px;
+  border-radius: 50px;
+  border: black solid 2px;
+  outline: white solid 1px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.search-box .btn{
+background-color: var(--main-color);
+color: white;
+}
+@media only screen and (max-width: 767px) {
+  .book{
+    padding: 0 20px !important;
+  }
+  .books-card{
+    justify-content: center !important;
+  }
+}
+@font-face {
+  font-family: "Changa" sans-serif ;
+  src: url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
+  unicode-range: U+0600–U+06FF, U+0750–U+077F, U+08A0–U+08FF;
+}
+/* @media only screen and (max-width: 1023px) {
+  .book{
+    padding: 0 20px !important;
+  }
+  .books-card{
+    justify-content: center !important;
+  }
+} */

@@ -8,6 +8,7 @@ namespace DataRepository.Core.DTOS.AuthorDtos
         public int Id { get; set; }
         public string Name { get; set; }
         public string Biography { get; set; }
+        public string Message { get; set; } =string.Empty;
         public string ImageUrl { get; set; }
         //[JsonIgnore(Condition = JsonIgnoreCondition.WhenWritingNull)]
         //public ICollection<BookDto> Books { get; set; }

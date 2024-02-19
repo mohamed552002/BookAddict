@@ -12,7 +12,7 @@ namespace DataRepository.Core.Models
         public int ISPN { get; set; }
         [Required,MinLength(2),MaxLength(128)]
         public string Title { get; set; }
-        [Required, MinLength(4), MaxLength(256)]
+        [Required, MinLength(4)]
         public string Description { get; set; }
         [Required,Range(0,double.MaxValue)]
         public double Price { get; set; }
