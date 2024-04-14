@@ -37,8 +37,10 @@ builder.Services.AddAutoMapper(typeof(Program));
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddTransient<IImageServices, ImageService>();
 builder.Services.AddTransient<IAuthService, AuthService>();
+builder.Services.AddScoped<IDBContext,DbContextService>();
 builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromAssemblies(typeof(Program).Assembly));
 builder.Services.AddCors();
+builder.Services.AddMemoryCache();
 
 builder.Services.AddAuthentication(options =>
 {

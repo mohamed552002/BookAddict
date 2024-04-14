@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
-
+import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -33,6 +33,8 @@ import { SSLbybass } from './services/SSLBybass.interceptor';
 import { BooksUserComponent } from './container/books-user/books-user.component';
 import { AuthorsUserComponent } from './container/authors-user/authors-user.component';
 import { BookUserComponent } from './container/books-user/book-user/book-user.component';
+import { RelevantBooksComponent } from './container/books-user/book-user/relevant-books/relevant-books.component';
+import { CartComponent } from './header/cart/cart.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -58,9 +60,12 @@ import { BookUserComponent } from './container/books-user/book-user/book-user.co
     LoadingspinnerComponent,
     BooksUserComponent,
     AuthorsUserComponent,
-    BookUserComponent
+    BookUserComponent,
+    RelevantBooksComponent,
+    CartComponent,
   ],
   imports: [
+    CarouselModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,

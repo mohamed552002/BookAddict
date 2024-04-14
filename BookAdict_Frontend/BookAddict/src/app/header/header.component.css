@@ -22,3 +22,60 @@ nav{
   color: black;
   transition: 0.3s;
 }
+.button{
+  background-color: var(--second-color);
+  border-radius: 50px;
+  width: 38px;
+  color: white;
+  border: 1px solid;
+  height: 38px;
+  transition: 0.2s;
+}
+
+.button:hover,.button:focus{
+  background-color: white;
+  color: var(--second-color);
+  transition: 0.2s;
+  border: 1px solid var(--second-color);
+
+}
+.cart-img{
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+}
+.price{
+  color: gray;
+  font-size: 14px;
+}
+.delete-item{
+  cursor: pointer;
+  color: #bf0909;
+}
+.dropdown-menu{
+  z-index: 1000;
+}
+.dropdown-menu .dropdown-item:active,.dropdown-menu .dropdown-item:focus-visible{
+color: black !important;
+background-color: white !important;
+border: white !important;
+}
+.button::before{
+  content: attr(data-before);
+  display: block;
+  width: 20px;
+  font-size: 12px;
+  display: flex;
+  color: black;
+  text-align: center;
+  border: 1px solid var(--second-color);
+  height: 20px;
+  outline: 1px solid white;
+  position: absolute;
+  border-radius: 15px;
+  background-color: white;
+  top: 0px;
+  left: -11px;
+  align-items: center;
+  justify-content: center;
+}

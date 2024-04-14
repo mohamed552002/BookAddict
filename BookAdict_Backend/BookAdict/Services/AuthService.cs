@@ -60,7 +60,7 @@ namespace DataRepo.Ef.Services
             var jwtSecurityToken = await CreateJwtToken(user);
             var userRoles = await _userManager.GetRolesAsync(user);
 
-            var authModel = new AuthModel(true,user,userRoles.ToList(),new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken),jwtSecurityToken.ValidTo);
+            var authModel = new AuthModel(user.Id,true,user,userRoles.ToList(),new JwtSecurityTokenHandler().WriteToken(jwtSecurityToken),jwtSecurityToken.ValidTo);
             
             return authModel;
         }

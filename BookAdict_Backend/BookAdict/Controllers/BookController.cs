@@ -51,6 +51,13 @@ namespace BookAdict.Controllers
             var result = await _mediator.Send(query);
             return result == null ? NotFound("This book not found") : Ok(result);
         }
+        [HttpGet("GetBooksByCategoryId/{categoryId}")]
+        public async Task<IActionResult> GetBooksByCategoryId(int categoryId)
+        {
+            var query = new GetByCategoryQuery(categoryId);
+            var result = await _mediator.Send(query);
+            return Ok(result);
+        }
         [Authorize(Roles = "admin")]
         [HttpPost("AddBook")]
         public async Task<IActionResult> AddBook([FromForm] BookInsertDto bookInDto)
@@ -74,18 +81,7 @@ namespace BookAdict.Controllers
                 return NotFound(new {message = "No Product exist" });
             return Ok();
         }
-        //[HttpPatch("UpdateBook")]
-        //public async Task<IActionResult> UpdateBook([FromForm] BookInsertDto bookInDto)
-        //{
-        //    if (!ModelState.IsValid)
-        //        return BadRequest(ModelState);
-        //    var book = _mapper.Map<Book>(bookInDto);
-        //    book.ImageUrl = _imageServices.SetImage(bookInDto.ImgFile);
-        //    _unitOfWork.Books.AddBookAsync(book, bookInDto.AuthorsIds);
-        //    _unitOfWork.ActionOnComplete();
-        //    return Ok(book);
 
-        //}
         [Authorize(Roles = "admin")]
         [HttpDelete("DeleteBook/{id}")]
         public async Task<IActionResult> Deletebook(int id)
@@ -94,5 +90,6 @@ namespace BookAdict.Controllers
             var result = await _mediator.Send(deleteCommand);
             return result != null ? Ok("Book deleted successfully"):NotFound("No Book found with this id");
         }
+
     }
 }

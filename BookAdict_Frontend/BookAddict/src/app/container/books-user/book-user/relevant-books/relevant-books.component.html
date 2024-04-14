@@ -1,0 +1,15 @@
+<h3 class="mb-3">Similar books</h3>
+<owl-carousel-o [options]="customOptions">
+  <ng-template carouselSlide class="carousel" *ngFor="let book of books">
+      <div class="book">
+      <div class="image">
+        <img class="book-img" src="{{host + book.imageUrl}}">
+        <span class="add-to-cart" (click)="addToCart(book)">+</span>
+      </div>
+      <div class="book-body d-flex flex-row justify-content-between">
+        <p class="m-0 mt-3 ">{{book.title}}</p>
+        <p class="m-0 mt-3 ms-2">{{book.price | currency}}</p>
+      </div>
+    </div>
+  </ng-template>
+</owl-carousel-o>

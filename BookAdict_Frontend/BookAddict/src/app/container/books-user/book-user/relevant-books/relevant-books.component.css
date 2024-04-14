@@ -1,0 +1,47 @@
+h3{
+  color: var(--main-color);
+}
+.book{
+  color: black;
+  text-decoration: none;
+  width: fit-content;
+  height: fit-content;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: 'Rubik', sans-serif;
+}
+.book:hover .add-to-cart{
+width: 40px;
+border: black solid 2px;
+outline: white solid 1px;
+height: 40px;
+font-size: 40px;
+transition: 0.3s;
+}
+  .book-img {
+    position: relative;
+}
+.book-img{
+  width: 160px !important;
+  height: 14rem;
+  border-radius: 25px;
+}
+.image{
+  position: relative;
+  width: fit-content;
+}
+.add-to-cart{
+  display: flex;
+  position: absolute;
+  bottom: 5px;
+  right: 4px;
+  font-size: 0;
+  width: 0px;
+  border-radius: 50px;
+  height: 0px;
+  border: black solid 0px;
+  outline: white solid 0px;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}

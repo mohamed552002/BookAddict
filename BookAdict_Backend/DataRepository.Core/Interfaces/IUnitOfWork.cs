@@ -12,6 +12,8 @@ namespace DataRepository.Core.Interfaces
         IBookRepo Books { get; }
         ICategoryRepo Category { get; }
         IAuthorRepo Author { get; }
+        ICartServices cartServices { get; }
+        IUserRepo User { get; }
         public void OnComplete();
         public void ActionOnComplete();
     }

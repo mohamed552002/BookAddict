@@ -144,8 +144,10 @@ namespace DataRepo.Ef.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("ISPN")
-                        .HasColumnType("int");
+                    b.Property<string>("ISPN")
+                        .IsRequired()
+                        .HasMaxLength(128)
+                        .HasColumnType("nvarchar(128)");
 
                     b.Property<string>("ImageUrl")
                         .IsRequired()

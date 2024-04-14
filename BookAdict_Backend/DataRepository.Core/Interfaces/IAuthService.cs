@@ -13,6 +13,5 @@ namespace DataRepository.Core.Interfaces
         public Task<AuthModel> RegisterAsync(RegisterRequestDto registerModel);
         public Task<AuthModel> GetTokenasync(TokenRequestDto tokenRequestModel);
         public Task<string> AddRoleAsync(AddRoleDto roleDto);
-        public Task<IEnumerable<ApplicationUser>> GetAllUsers();
     }
 }

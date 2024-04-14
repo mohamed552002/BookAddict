@@ -1,27 +1,44 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { BookApis } from '../../server/BookApis.service';
 import { HttpErrorResponse } from '@angular/common/http';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CategoryApisService } from '../../server/CategoryApis/CategotyApis.service';
 import { BookUserComponent } from './book-user/book-user.component';
+import { CartApis } from '../../server/CartApi.Services';
+import { CartItem } from '../../Models/CartItem';
+import { AuthApis } from '../../server/Auth.services';
+import { Subscription } from 'rxjs';
+import { User } from '../../Models/User';
 
 @Component({
   selector: 'books-user',
   templateUrl: './books-user.component.html',
   styleUrl: './books-user.component.css'
 })
-export class BooksUserComponent implements OnInit {
+export class BooksUserComponent implements OnInit , OnDestroy {
 isLoading:boolean = true;
 books:any
+user:User
+cartItems:CartItem[] = []
 error:HttpErrorResponse
 sortList:string[] = ['latest','price']
 sortedOn:string
 choosedCategory:string = ""
 allCategories:any[]
+userSup:Subscription;
 
-constructor(private bookApi :BookApis, private categoryApi: CategoryApisService, private route:ActivatedRoute , private router :Router){}
+constructor(private bookApi :BookApis,
+  private categoryApi: CategoryApisService,
+  private cartApi:CartApis ,
+  private authApi:AuthApis,
+  private route:ActivatedRoute ,
+  private router :Router){}
+
 host = this.bookApi.localhost
 ngOnInit(){
+  this.userSup = this.authApi.user.subscribe({
+    next: data => this.user = data,
+  })
 this.GetAllBooks()
   this.sortedOn = this.route.snapshot.queryParams["sortby"] ?? ""
   this.categoryApi.getAllCategories().subscribe({
@@ -33,8 +50,16 @@ this.GetAllBooks()
     }
   })
 }
-addToCart(book){
-  console.log(book)
+addToCart(event:Event,book,quantity=1){
+  event.stopPropagation()
+  const cartItemToAdd:CartItem = new CartItem(book.id,book.imageUrl,book.title,book.price,quantity,this.user.id)
+  this.cartApi.cartItems$.subscribe(data => {
+    console.log(data)
+    this.cartItems = data
+  })
+  if( this.cartItems== null || !this.cartItems.some(ci => ci.bookId == cartItemToAdd.bookId) ){
+    this.cartApi.AddToCart(cartItemToAdd).subscribe(() => console.log("ok"));
+  }
 }
 sortPage(sort){
   this.router.navigate(["/books"],{queryParams:{"sortby" : sort.value}})
@@ -81,5 +106,9 @@ GetAllBooks(sortBy?:string , category?:string){
       this.isLoading = false;
     }
   })
+}
+
+ngOnDestroy(): void {
+  this.userSup.unsubscribe()
 }
 }

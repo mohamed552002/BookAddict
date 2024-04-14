@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BookAdict")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cc387b8fa57111d99c0c3a9851643125b9c89086")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+509c11347720b3fd106af0f57d04abbcd5e1a42d")]
 [assembly: System.Reflection.AssemblyProductAttribute("BookAdict")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BookAdict")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
