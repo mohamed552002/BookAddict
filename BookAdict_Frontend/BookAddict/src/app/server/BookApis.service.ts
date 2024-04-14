@@ -32,4 +32,7 @@ export class BookApis extends BaseApi{
   updateBook(book:any):Observable<any>{
     return this.http.put(`${this.apiUrl}UpdateBook`,book);
   }
+  getBookByCategoryid(categoryId:number):Observable<any>{
+    return this.http.get(`${this.apiUrl}GetBooksByCategoryId/${categoryId}`,)
+  }
 }

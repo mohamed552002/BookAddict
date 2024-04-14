@@ -1,1 +1,31 @@
-<p>book-user works!</p>
+<div class="container d-flex justify-content-center flex-column mt-md-5">
+<div class="bookuser-container d-flex justify-content-center py-4">
+  <loading-spinner *ngIf="isLoading"></loading-spinner>
+<div *ngIf="!isLoading" class=" book row align-self-center d-flex flex-row m-auto">
+  <div class=" book-img col-md-5 ps-0">
+    <img [src]="imgUrl" class="" >
+  </div>
+  <div class="book-summary col-md-7 d-block">
+    <p class="m-0 text-secondary">{{book.category.name}}</p>
+    <h1 class="title">{{book.title}}</h1>
+    <p>Atuhor : <span *ngFor="let author of book.authors">{{author.name}}</span></p>
+    <hr>
+    <div class="description"><p>
+      {{book.description}}
+    </p>
+  </div>
+  <hr>
+  <p>{{book.price | currency}}</p>
+  <form class="add-to-cart form-group d-flex mt-5">
+    <input class="form-control" value="1" type="number" min="1">
+    <button class="btn">Add To Cart</button>
+  </form>
+  <p style="font-size: small;" class="mt-2 text-secondary">ISBN: {{book.ispn}}</p>
+  </div>
+</div>
+</div>
+<div class="relevant-books col-12 mt-3 mt-lg-5">
+  <relevant-books *ngIf="!isLoading" [categoryId]="book.category.id"></relevant-books>
+</div>
+</div>
+

@@ -11,13 +11,15 @@
   </div>
   </div>
 </div> -->
-<nav class="navbar navbar-expand-lg nav px-5 overflow-hidden">
+<nav class="navbar navbar-expand-lg nav px-5">
   <a class="navbar-brand m-0 p-0" href="#"><img src="assets/book (1).png" style="height: 55px;"></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
     <div class="navbar-nav">
+
+      <app-cart></app-cart>
       <a class="nav-item nav-link  mx-lg-2 text-light"[routerLinkActiveOptions]="{exact:true}" routerLinkActive="active" routerLink="">Home</a>
       <a class="nav-item nav-link mx-lg-2 text-light" routerLinkActive="active" routerLink="./authors">Authors</a>
       <a class="nav-item nav-link mx-lg-2 text-light" routerLinkActive="active" routerLink="./books">Books</a>
@@ -27,3 +29,12 @@
     </div>
   </div>
 </nav>
+<div *ngIf="" class="alert alert-success w-50 text-center mt-2 left position-fixed z-2" role="alert">
+  Item added to cart successfully
+</div>
+<div class="alert alert-warning" role="alert">
+  This is a warning alert—check it out!
+</div>
+<div class="alert alert-danger" role="alert">
+  This is a warning alert—check it out!
+</div>

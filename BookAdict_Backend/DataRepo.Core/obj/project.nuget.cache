@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "p4qb/HjZ4g+hLUG3eowK4N8tfVvn+7e72qtviqpV1yLgqOh3s8TQEWt2JvKz48hyHsSfHKJJz5STnNljr0ZYrg==",
+  "dgSpecHash": "PwHQe/w1ZGLdLU6b1oCY4f+wGlNq3OwHqGouI9Wpr46dpRVvJ4h5GIOVxpDeABeg2v7B1vb/R8d4mSVcrsaoWA==",
   "success": true,
-  "projectFilePath": "D:\\Main Project\\BookAdict_Backend\\DataRepo.Core\\DataRepo.Ef.csproj",
+  "projectFilePath": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepo.Core\\DataRepo.Ef.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mozam\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\mozam\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

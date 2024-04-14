@@ -25,16 +25,18 @@
   <div class="text-center" *ngIf="isLoading">
       <loading-spinner></loading-spinner>
   </div>
-  <div *ngIf="!isLoading" class="books-card d-flex justify-content-between row mt-5" >
+  <div *ngIf="!isLoading" class="books-card row mt-5" >
     <a *ngFor="let book of books" (click) = "NavigateBook(book)" class="book-card me-1 col-3 p-0 mt-4" >
+      <div class="book-link ">
       <div class="book-image">
         <img src="{{host + book.imageUrl}}" class="" alt="...">
-        <span class="add-to-cart" (click)="addToCart(book)">+</span>
+        <span class="add-to-cart" (click)="addToCart($event,book)">+</span>
       </div>
       <div class="book-body d-flex flex-row justify-content-between">
         <p class="m-0 mt-3 ">{{book.title}}</p>
         <p class="m-0 mt-3 ms-2">{{book.price | currency}}</p>
       </div>
+    </div>
     </a>
   </div>
 </div>

@@ -1,0 +1,23 @@
+<div class="btn-group">
+  <button type="button" [attr.data-before]="cartItemsNum" class="button" data-toggle="dropdown">
+    <fa-icon [icon]="faCartShopping"></fa-icon>
+  </button>
+  <div class="dropdown-menu pb-0 " >
+    <div *ngIf="!isCartEmpty">
+      <div *ngFor="let item of cartItems" class="dropdown-item  align-content-center d-flex align-items-center">
+        <img class="cart-img me-2" [src]="cartApi.localhost + item.imgUrl">
+        <p class="m-0 me-3">{{item.name}}</p>
+        <p class="price m-0 me-2 ms-auto">{{item.price | currency}}</p>
+        <div (click)="deleteFromCart(item)">
+          <fa-icon class="delete-item"  [icon]="faTrash"></fa-icon>
+        </div>
+      </div>
+      <a class="" href="#"><button class="btn btn-success h-100 w-100">Proceed to checkout</button></a>
+    </div>
+    <div *ngIf="isCartEmpty" class=" p-2">
+      <h6>There is no items in Cart</h6>
+</div>
+  </div>
+
+
+</div>

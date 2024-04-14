@@ -35,7 +35,7 @@ namespace BookAdict.Services
         }
         public void DeleteImage(string OldImgUrl)
         {
-            if(!string.IsNullOrEmpty(OldImgUrl) || OldImgUrl != NoImagePath)
+            if(!string.IsNullOrEmpty(OldImgUrl) && OldImgUrl != NoImagePath)
             {
                 var OldImagePath = _env.WebRootPath + OldImgUrl;
                 if(File.Exists(OldImagePath))

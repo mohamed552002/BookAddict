@@ -1,0 +1,29 @@
+.bookuser-container{
+  font-family: 'Rubik', sans-serif;
+}
+.book{
+  width: 73vw;
+}
+.book .book-img img{
+  box-shadow: 5px 5px 20px -3px black;
+  width: 85% !important;
+}
+.book .book-summary h1{
+  color: var(--main-color);
+}
+.book .book-summary .description p{
+  font-size: small;
+}
+.book .book-summary .btn{
+  background-color: var(--main-color);
+  color: white;
+  width: 50%;
+  box-shadow: 5px 5px 20px -8px black;
+}
+.book .book-summary .btn:hover{
+  box-shadow: none;
+}
+.book .book-summary .form-control{
+  width: 60px !important;
+  margin-right: 10px;
+}

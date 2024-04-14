@@ -3761,11 +3761,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Main Project\\BookAdict_Backend\\DataRepo.Core\\DataRepo.Ef.csproj",
+      "projectUniqueName": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepo.Core\\DataRepo.Ef.csproj",
       "projectName": "DataRepo.Ef",
-      "projectPath": "D:\\Main Project\\BookAdict_Backend\\DataRepo.Core\\DataRepo.Ef.csproj",
+      "projectPath": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepo.Core\\DataRepo.Ef.csproj",
       "packagesPath": "C:\\Users\\mozam\\.nuget\\packages\\",
-      "outputPath": "D:\\Main Project\\BookAdict_Backend\\DataRepo.Core\\obj\\",
+      "outputPath": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepo.Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mozam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3782,8 +3782,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Main Project\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj": {
-              "projectPath": "D:\\Main Project\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj"
+            "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj": {
+              "projectPath": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj"
             }
           }
         }
@@ -3792,6 +3792,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3837,7 +3842,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
       }
     }
   }

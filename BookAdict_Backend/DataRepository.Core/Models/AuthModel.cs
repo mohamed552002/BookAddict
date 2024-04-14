@@ -9,8 +9,9 @@ namespace DataRepository.Core.Models
     public class AuthModel
     {
         public AuthModel() { }
-        public AuthModel(bool isAuthenticated, ApplicationUser user, List<string> roles, string token, DateTime expiresOn)
+        public AuthModel(string id, bool isAuthenticated, ApplicationUser user, List<string> roles, string token, DateTime expiresOn)
         {
+            Id = id;
             IsAuthenticated = isAuthenticated;
             Username = user.UserName;
             Email = user.Email;
@@ -29,6 +30,7 @@ namespace DataRepository.Core.Models
             Token = token;
             ExpiresOn = expiresOn;
         }
+        public string Id { get; set; }
         public bool IsAuthenticated { get; set; }
         public string Username { get; set; }
         public string FirstName { get; set; }

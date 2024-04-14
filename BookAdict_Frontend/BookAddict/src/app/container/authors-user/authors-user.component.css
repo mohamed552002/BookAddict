@@ -58,17 +58,22 @@ color: white;
   .authors-card{
     justify-content: center !important;
   }
+  .author-card{
+    margin-right: 10px;
+  }
+}
+@media (min-width: 768px){
+  .author-card {
+      margin-right: 4.3rem !important;
+  }
+}
+@media (width : 425px) {
+  .author-card {
+    margin-right: 0.6rem !important;
+}
 }
 @font-face {
   font-family: "Changa" sans-serif ;
   src: url('https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap');
   unicode-range: U+0600–U+06FF, U+0750–U+077F, U+08A0–U+08FF;
 }
-/* @media only screen and (max-width: 1023px) {
-  .author{
-    padding: 0 20px !important;
-  }
-  .authors-card{
-    justify-content: center !important;
-  }
-} */

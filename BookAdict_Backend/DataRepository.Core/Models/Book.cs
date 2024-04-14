@@ -2,14 +2,16 @@
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using System.ComponentModel.DataAnnotations;
 
+using DataRepository.Core.Interfaces;
+
 namespace DataRepository.Core.Models
 {
     [Index(nameof(ISPN),IsUnique =true)]
     public class Book
     {
         public int Id { get; set; }
-        [Required]
-        public int ISPN { get; set; }
+        [Required, MinLength(2), MaxLength(128), ISUnique()]
+        public string ISPN { get; set; }
         [Required,MinLength(2),MaxLength(128)]
         public string Title { get; set; }
         [Required, MinLength(4)]

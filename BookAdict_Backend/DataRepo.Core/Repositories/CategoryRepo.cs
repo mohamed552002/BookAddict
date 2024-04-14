@@ -45,7 +45,7 @@ namespace DataRepo.Ef.Repositories
 
         public async Task<bool> IsCategoryExist(int id)
         {
-            await _bookRepo.GetBookByCategoryIdAsync(id); // getting all books to get its all details
+            await _bookRepo.GetBooksByCategoryIdAsync(id); // getting all books to get its all details
             return  _context.Categories.Where(b => b.Id == id).Any();
         }
 

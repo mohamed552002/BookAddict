@@ -10,6 +10,10 @@
   height: fit-content;
   overflow: hidden;
 }
+.book-link{
+  width: 175px;
+  overflow: hidden;
+}
 .book-card:hover .add-to-cart{
 right: 6px;
 transition: 0.3s;
@@ -57,6 +61,20 @@ color: white;
   .books-card{
     justify-content: center !important;
   }
+  .book-card{
+    margin-right: 10px;
+  }
+}
+@media (min-width: 768px){
+  .book-card {
+      margin-right: 2.15rem !important;
+      margin-left: 2.15rem !important;
+  }
+}
+@media (width : 425px) {
+  .book-card {
+    margin-right: 0.6rem !important;
+}
 }
 @font-face {
   font-family: "Changa" sans-serif ;

@@ -97,15 +97,15 @@ namespace DataRepo.Ef.Repositories
 
         public bool IsBookExist(int id)
         {
-           return _context.Books.Where(b => b.Id == id).Any();
+            return _context.Books.FirstOrDefault(b => b.Id == id) is not null;
         }
 
-        public async Task<Book> GetBookByCategoryIdAsync(int CategoryId)
+        public async Task<IEnumerable<Book>> GetBooksByCategoryIdAsync(int CategoryId)
         {
             return await _context.Books.Where(b => b.CategoryId == CategoryId)
                         .Include(b => b.Authors).ThenInclude(ba => ba.Author)
                         .Include(b => b.Category)
-                        .FirstOrDefaultAsync();
+                        .ToListAsync();
         }
 
 

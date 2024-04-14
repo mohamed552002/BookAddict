@@ -6,6 +6,7 @@ import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import { AuthorApiService } from '../../../../server/AuthorApis/AuthorApi.service';
 import { CategoryApisService } from '../../../../server/CategoryApis/CategotyApis.service';
 import { BookApis } from '../../../../server/BookApis.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'add-book',
@@ -24,7 +25,7 @@ export class AddBookComponent implements OnInit {
   authorSelected:boolean = true;
   isCategoryLoaded = false;
   isAuthorLoaded = false;
-constructor(private authorApis:AuthorApiService , private categoryApis:CategoryApisService , private bookApis:BookApis){}
+constructor(private authorApis:AuthorApiService , private categoryApis:CategoryApisService , private bookApis:BookApis , private router:Router){}
 url:any = "";
 ngOnInit(){
   this.authorApis.getAllAuthors().subscribe((data) => {
@@ -74,7 +75,9 @@ submitForm(){
     "AuthorsIds" : this.authorsChecked
   }
   const formdata = serialize(requestData);
-  this.bookApis.PostBook(formdata).subscribe();
+  this.bookApis.PostBook(formdata).subscribe(() => {
+    this.router.navigate(["dashboard/book"])
+  });
   }
   else {
     if(this.authorsChecked.length<1) {

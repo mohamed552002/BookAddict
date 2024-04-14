@@ -7,7 +7,8 @@
   </div>
   <hr class="m-0">
   <div class="p-4">
-    <form class="row" [formGroup]="formgroup" (ngSubmit)="submitForm()">
+    <loading-spinner *ngIf="isLoading"></loading-spinner>
+    <form class="row" [formGroup]="formgroup" *ngIf="!isLoading" (ngSubmit)="submitForm()">
       <div class="d-flex justify-content-center mb-4">
         <div [ngClass]="url?'bg-light':'bg-secondary'" class="card align-self-center text-center" style="width: 10rem; height:10rem; cursor:pointer;">
           <label *ngIf="url == ''" for="book-img" class="m-auto w-100 h-100 d-flex justify-content-center"  style="cursor:pointer;">

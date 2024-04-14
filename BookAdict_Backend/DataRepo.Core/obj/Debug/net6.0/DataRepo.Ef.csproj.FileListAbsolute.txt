@@ -50,3 +50,20 @@ D:\Main Project\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.pdb
 D:\Main Project\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.genruntimeconfig.cache
 D:\Main Project\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\ref\DataRepo.Ef.dll
 D:\Main Project\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.sourcelink.json
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\bin\Debug\net6.0\DataRepo.Ef.deps.json
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\bin\Debug\net6.0\DataRepo.Ef.runtimeconfig.json
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\bin\Debug\net6.0\DataRepo.Ef.dll
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\bin\Debug\net6.0\DataRepo.Ef.pdb
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\bin\Debug\net6.0\DataRepository.Core.dll
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\bin\Debug\net6.0\DataRepository.Core.pdb
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.csproj.AssemblyReference.cache
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.AssemblyInfoInputs.cache
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.AssemblyInfo.cs
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.csproj.CoreCompileInputs.cache
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.331F5C8E.Up2Date
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.dll
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\refint\DataRepo.Ef.dll
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.pdb
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.genruntimeconfig.cache
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\ref\DataRepo.Ef.dll
