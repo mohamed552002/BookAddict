@@ -35,6 +35,7 @@ import { AuthorsUserComponent } from './container/authors-user/authors-user.comp
 import { BookUserComponent } from './container/books-user/book-user/book-user.component';
 import { RelevantBooksComponent } from './container/books-user/book-user/relevant-books/relevant-books.component';
 import { CartComponent } from './header/cart/cart.component';
+import { OrderConfirmationComponent } from './header/cart/order-confirmation/order-confirmation.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -63,6 +64,7 @@ import { CartComponent } from './header/cart/cart.component';
     BookUserComponent,
     RelevantBooksComponent,
     CartComponent,
+    OrderConfirmationComponent,
   ],
   imports: [
     CarouselModule,

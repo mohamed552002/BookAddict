@@ -1,3 +1,12 @@
+<div *ngIf="cartStatus.Added " class="alert alert-success " role="alert">
+  Item added to cart successfully
+</div>
+<div *ngIf="cartStatus.AddedPreviously" class="alert alert-warning" role="alert">
+  This Item added previously to cart
+</div>
+<div *ngIf="cartStatus.Removed" class="alert alert-danger" role="alert">
+  Item  removed from cart
+</div>
 <div class="btn-group">
   <button type="button" [attr.data-before]="cartItemsNum" class="button" data-toggle="dropdown">
     <fa-icon [icon]="faCartShopping"></fa-icon>

@@ -25,7 +25,7 @@ namespace BookAdict.Helpers
             CreateMap<ApplicationUser, RegisterRequestDto>().ReverseMap();
             CreateMap<ApplicationUser, ApplicationUserDto>().ReverseMap();
             CreateMap<ApplicationUser, AuthModel>().ReverseMap();
-
+            CreateMap<OrderItem,OrderItemDto>().ReverseMap();
             //CreateMap<Book, BookDto>().IncludeMembers(src => src.Authors);
         }
     }

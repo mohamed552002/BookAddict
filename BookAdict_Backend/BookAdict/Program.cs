@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
+using Stripe;
 using System.Text;
 using System.Text.Json.Serialization;
 
@@ -38,6 +39,7 @@ builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddTransient<IImageServices, ImageService>();
 builder.Services.AddTransient<IAuthService, AuthService>();
 builder.Services.AddScoped<IDBContext,DbContextService>();
+builder.Services.AddScoped<PaymentService>();
 builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromAssemblies(typeof(Program).Assembly));
 builder.Services.AddCors();
 builder.Services.AddMemoryCache();
@@ -64,6 +66,7 @@ builder.Services.AddAuthentication(options =>
 
     };
 });
+StripeConfiguration.ApiKey = builder.Configuration.GetSection("StripeSettings:SecretKey").Get<string>();
 
 var app = builder.Build();
 

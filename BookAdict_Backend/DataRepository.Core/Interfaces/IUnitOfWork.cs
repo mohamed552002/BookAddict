@@ -14,6 +14,7 @@ namespace DataRepository.Core.Interfaces
         IAuthorRepo Author { get; }
         ICartServices cartServices { get; }
         IUserRepo User { get; }
+        IOrderServices Order { get; }
         public void OnComplete();
         public void ActionOnComplete();
     }

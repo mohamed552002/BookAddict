@@ -43,3 +43,6 @@ BookAdict_Frontend/BookAddict/Thumbs.db
 
 #App Settings
 BookAdict_Backend/BookAdict/appsettings
+
+# Front Files
+BookAdict_Frontend/BookAddict/src/app/header/cart/order-confirmation

@@ -79,3 +79,15 @@ border: white !important;
   align-items: center;
   justify-content: center;
 }
+.alert{
+  position: absolute;
+    top: 10px;
+    width: 300px;
+    left: calc(50% - 150px);
+    animation: aletr-move forwards ;
+    animation-duration: 1s;
+}
+@keyframes aletr-move {
+  0% {top: -100%;}
+  100% {top: 10px;}
+}

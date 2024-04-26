@@ -555,5 +555,31 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookAdict.Controllers.OrderController",
+    "Method": "ConfirmOrder",
+    "RelativePath": "api/Order/ConfirmOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "items",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DataRepository.Core.Dtos.OrderItemDto, DataRepository.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": true
+      },
+      {
+        "Name": "IsCashPayment",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "userId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

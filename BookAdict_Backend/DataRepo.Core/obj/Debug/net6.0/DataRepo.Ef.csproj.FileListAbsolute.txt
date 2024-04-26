@@ -67,3 +67,4 @@ D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\refint\D
 D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.pdb
 D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.genruntimeconfig.cache
 D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\ref\DataRepo.Ef.dll
+D:\Projects\BookAddict\BookAdict_Backend\DataRepo.Core\obj\Debug\net6.0\DataRepo.Ef.sourcelink.json

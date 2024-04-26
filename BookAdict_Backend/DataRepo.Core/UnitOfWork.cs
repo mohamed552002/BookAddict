@@ -23,6 +23,7 @@ namespace DataRepo.Ef
         public IUnitOfWork unitOfWork { get; private set; }
         public ICartServices cartServices { get; private set; }
         public IUserRepo User { get; private set; }
+        public IOrderServices Order { get; private set; }
 
         public UnitOfWork(ApplicationDbContext context, IMemoryCache memoryCache, UserManager<ApplicationUser> userManager)
         {
@@ -34,6 +35,7 @@ namespace DataRepo.Ef
             Author = new AuthorRepo(_context);
             User = new UserRepo(_userManager);
             cartServices = new CartServices(_memoryCache, User, Books);
+            Order = new OrderRepo(_context);
 
         }
         public void OnComplete()

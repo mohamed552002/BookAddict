@@ -35,5 +35,7 @@ namespace DataRepo.Ef
         public DbSet<Author> Author { get; set; }
         public DbSet<Books_Authors> Books_Authors { get; set; }
         public DbSet<Category> Categories { get; set; }
+        public DbSet<Order> Orders { get; set; }
+        public DbSet<OrderItem> OrderItems { get; set; }
     }
 }
