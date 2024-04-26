@@ -9,6 +9,7 @@ import { CartItem } from '../../Models/CartItem';
 import { AuthApis } from '../../server/Auth.services';
 import { Subscription } from 'rxjs';
 import { User } from '../../Models/User';
+import { CartServices } from '../../header/cart/cart-services.service';
 
 @Component({
   selector: 'books-user',
@@ -29,8 +30,8 @@ userSup:Subscription;
 
 constructor(private bookApi :BookApis,
   private categoryApi: CategoryApisService,
-  private cartApi:CartApis ,
   private authApi:AuthApis,
+  private cartServices:CartServices,
   private route:ActivatedRoute ,
   private router :Router){}
 
@@ -52,14 +53,7 @@ this.GetAllBooks()
 }
 addToCart(event:Event,book,quantity=1){
   event.stopPropagation()
-  const cartItemToAdd:CartItem = new CartItem(book.id,book.imageUrl,book.title,book.price,quantity,this.user.id)
-  this.cartApi.cartItems$.subscribe(data => {
-    console.log(data)
-    this.cartItems = data
-  })
-  if( this.cartItems== null || !this.cartItems.some(ci => ci.bookId == cartItemToAdd.bookId) ){
-    this.cartApi.AddToCart(cartItemToAdd).subscribe(() => console.log("ok"));
-  }
+  this.cartServices.addToCart(book,quantity)
 }
 sortPage(sort){
   this.router.navigate(["/books"],{queryParams:{"sortby" : sort.value}})

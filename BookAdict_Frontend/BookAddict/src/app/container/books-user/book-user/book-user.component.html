@@ -16,8 +16,8 @@
   </div>
   <hr>
   <p>{{book.price | currency}}</p>
-  <form class="add-to-cart form-group d-flex mt-5">
-    <input class="form-control" value="1" type="number" min="1">
+  <form #form = "ngForm" (ngSubmit)="addToCart(book,form)" class="add-to-cart form-group d-flex mt-5" Form>
+    <input name="quantity" class="form-control" value="1" type="number" min="1">
     <button class="btn">Add To Cart</button>
   </form>
   <p style="font-size: small;" class="mt-2 text-secondary">ISBN: {{book.ispn}}</p>

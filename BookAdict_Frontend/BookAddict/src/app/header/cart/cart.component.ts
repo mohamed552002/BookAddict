@@ -5,6 +5,7 @@ import { AuthApis } from '../../server/Auth.services';
 import { User } from '../../Models/User';
 import { Subscription } from 'rxjs';
 import { faCartShopping, faTrash } from '@fortawesome/free-solid-svg-icons';
+import { CartServices } from './cart-services.service';
 
 @Component({
   selector: 'app-cart',
@@ -18,6 +19,7 @@ export class CartComponent implements OnInit, OnDestroy {
   oldCartItemNum:number = 0;
   cartItemsNum:number = 0;
   isCartEmpty:boolean = true
+  cartStatusSub:Subscription
   user:User;
   cartStatus = {
     Added:false,
@@ -25,23 +27,17 @@ export class CartComponent implements OnInit, OnDestroy {
     Removed:false
   }
   private userSub:Subscription;
-  constructor(private authApis:AuthApis, protected cartApi:CartApis){}
+  constructor(private authApis:AuthApis, protected cartApi:CartApis,private cartServices:CartServices){}
   ngOnInit(){
-    console.log(this.cartItems.length)
     this.cartApi.cartItems$.subscribe({
       next: data => {
         this.cartItems = data != null ? data : []
-        console.log(this.cartItems)
         this.cartItemsNum = this.cartItems.length
-        console.log(this.cartItemsNum)
         this.isCartEmpty = this.cartItems.length == 0
-
       }
-
     })
-    console.log(this.cartItems)
+    this.HandleCartStatus()
     this.userSub = this.authApis.user.subscribe(user => {
-      console.log(user)
       this.user = user
     })
     this.GetCartItems()
@@ -53,7 +49,7 @@ export class CartComponent implements OnInit, OnDestroy {
     this.cartApi.DeleteCartItem(item).subscribe(
       (data) => {
         this.cartItems.splice(this.cartItems.indexOf(item),1);
-
+        this.cartServices.cartStatus$.next("Removed");
       }
     )
     this.cartItemsNum--
@@ -65,7 +61,41 @@ export class CartComponent implements OnInit, OnDestroy {
     if(this.user)
       this.cartApi.GetCart(this.user.id).subscribe(data => this.cartItems =data);
   }
+  HandleCartStatus(){
+    this.cartServices.cartStatus$.subscribe(status => {
+      switch(status){
+      case "Added": this.cartStatus = {
+        Added:true,
+        AddedPreviously:false,
+        Removed:false
+      }
+      break;
+      case "AddedPreviously": this.cartStatus = {
+        Added:false,
+        AddedPreviously:true,
+        Removed:false
+      }
+      break;
+      case "Removed": this.cartStatus = {
+        Added:false,
+        AddedPreviously:false,
+        Removed:true
+      }
+      break;
+      default:
+        break;
+      }
+      setTimeout(()=>  this.cartStatus = {
+        Added:false,
+        AddedPreviously:false,
+        Removed:false
+      },1500)
+    })
+  }
+
   ngOnDestroy(){
     this.userSub.unsubscribe()
+    // this.cartStatusSub.unsubscribe()
   }
+
 }
