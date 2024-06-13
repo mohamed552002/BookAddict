@@ -8,6 +8,7 @@ using BookAddict.Application.DTOS.CartDtos;
 using BookAddict.Application.DTOS.AuthDtos;
 using BookAddict.Application.DTOS.UserDtos;
 using BookAddict.Application.DTOS.OrderAndPaymentDtos;
+using BookAddict.Application.DTOS.WishlistDtos;
 
 namespace BookAdict.Helpers
 {
@@ -32,6 +33,11 @@ namespace BookAdict.Helpers
             CreateMap<OrderItem,OrderItemDto>().ReverseMap();
             CreateMap<OrderItem,CartItem>().ReverseMap();
             //CreateMap<Book, BookDto>().IncludeMembers(src => src.Authors);
+
+            // Wishlist
+            CreateMap<WishlistItem, AddWishlistItemDto>();
+            CreateMap<WishlistItem, GetWishlistItemDto>();
+            
         }
     }
 }

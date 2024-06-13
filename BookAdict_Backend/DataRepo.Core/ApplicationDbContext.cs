@@ -22,6 +22,7 @@ namespace DataRepo.Ef
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<Books_Authors>().HasKey(ba => new { ba.AuthorId, ba.BookId });
+            modelBuilder.Entity<WishlistItem>().HasKey(w => new { w.UserId, w.BookId });
             modelBuilder.Entity<ApplicationUser>().ToTable("Users", "security");
             modelBuilder.Entity<IdentityRole>().ToTable("Roles", "security");
             modelBuilder.Entity<IdentityUserRole<string>>().ToTable("UserRoles", "security");
@@ -29,6 +30,7 @@ namespace DataRepo.Ef
             modelBuilder.Entity<IdentityRoleClaim<string>>().ToTable("RoleClaims", "security");
             modelBuilder.Entity<IdentityUserLogin<string>>().ToTable("UserLogins", "security");
             modelBuilder.Entity<IdentityUserToken<string>>().ToTable("UserTokens", "security");
+
         }
 
 
@@ -38,5 +40,6 @@ namespace DataRepo.Ef
         public DbSet<Category> Categories { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<OrderItem> OrderItems { get; set; }
+        public DbSet<WishlistItem> WishlistItems { get; set; }
     }
 }

@@ -3,28 +3,31 @@
   "WorkspaceRootPath": "D:\\project dublicate\\BA\\BookAdict_Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookadict\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|solutionrelative:bookadict\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookadict\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|solutionrelative:bookadict\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookaddict.application\\handlers\\authorhandler\\deleteauthorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|solutionrelative:bookaddict.application\\handlers\\authorhandler\\deleteauthorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookadict\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|solutionrelative:bookadict\\controllers\\wishlistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookaddict.application\\commands\\authorcommands\\deleteauthorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|solutionrelative:bookaddict.application\\commands\\authorcommands\\deleteauthorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Projects\\FIHS\\Server\\FIHS\\Controllers\\PlantController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookaddict.application\\handlers\\authorhandler\\updateauthorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|solutionrelative:bookaddict.application\\handlers\\authorhandler\\updateauthorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookaddict.application\\handlers\\wishlisthandler\\deletewishlistitemhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|solutionrelative:bookaddict.application\\handlers\\wishlisthandler\\deletewishlistitemhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookadict\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|solutionrelative:bookadict\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookaddict.application\\interfaces\\iwishlistitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|solutionrelative:bookaddict.application\\interfaces\\iwishlistitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookaddict.application\\commands\\authorcommands\\updateauthorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|solutionrelative:bookaddict.application\\commands\\authorcommands\\updateauthorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4362EE4F-8FCA-411E-9AC3-D34092AFE3A6}|DataRepo.Core\\BookAddict.Persistance.csproj|d:\\project dublicate\\ba\\bookadict_backend\\datarepo.core\\repositories\\wishlistitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4362EE4F-8FCA-411E-9AC3-D34092AFE3A6}|DataRepo.Core\\BookAddict.Persistance.csproj|solutionrelative:datarepo.core\\repositories\\wishlistitemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookaddict.application\\commands\\wishlistcommands\\deletewishlistitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|solutionrelative:bookaddict.application\\commands\\wishlistcommands\\deletewishlistitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,83 +37,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\Program.cs",
+              "RelativeDocumentMoniker": "BookAdict\\Program.cs",
+              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\Program.cs",
+              "RelativeToolTip": "BookAdict\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T21:41:38.006Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DeleteAuthorHandler.cs",
-              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Handlers\\AuthorHandler\\DeleteAuthorHandler.cs",
-              "RelativeDocumentMoniker": "BookAddict.Application\\Handlers\\AuthorHandler\\DeleteAuthorHandler.cs",
-              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Handlers\\AuthorHandler\\DeleteAuthorHandler.cs",
-              "RelativeToolTip": "BookAddict.Application\\Handlers\\AuthorHandler\\DeleteAuthorHandler.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAXAAAA",
+              "Title": "WishlistController.cs",
+              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\Controllers\\WishlistController.cs",
+              "RelativeDocumentMoniker": "BookAdict\\Controllers\\WishlistController.cs",
+              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\Controllers\\WishlistController.cs",
+              "RelativeToolTip": "BookAdict\\Controllers\\WishlistController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAADwvxQAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T10:19:48.057Z"
+              "WhenOpened": "2024-06-13T17:48:31.768Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DeleteAuthorRequest.cs",
-              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Commands\\AuthorCommands\\DeleteAuthorRequest.cs",
-              "RelativeDocumentMoniker": "BookAddict.Application\\Commands\\AuthorCommands\\DeleteAuthorRequest.cs",
-              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Commands\\AuthorCommands\\DeleteAuthorRequest.cs",
-              "RelativeToolTip": "BookAddict.Application\\Commands\\AuthorCommands\\DeleteAuthorRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
+              "Title": "PlantController.cs",
+              "DocumentMoniker": "D:\\Projects\\FIHS\\Server\\FIHS\\Controllers\\PlantController.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\Projects\\FIHS\\Server\\FIHS\\Controllers\\PlantController.cs",
+              "ToolTip": "D:\\Projects\\FIHS\\Server\\FIHS\\Controllers\\PlantController.cs",
+              "RelativeToolTip": "..\\..\\..\\Projects\\FIHS\\Server\\FIHS\\Controllers\\PlantController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T10:18:30.25Z"
+              "WhenOpened": "2024-06-13T17:52:24.523Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "BookAdict\\Controllers\\BookController.cs",
-              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\Controllers\\BookController.cs",
-              "RelativeToolTip": "BookAdict\\Controllers\\BookController.cs",
-              "ViewState": "AQIAADwAAAAAAAAAAAA4wB0AAAAAAAAA",
+              "Title": "IWishlistItemRepo.cs",
+              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Interfaces\\IWishlistItemRepo.cs",
+              "RelativeDocumentMoniker": "BookAddict.Application\\Interfaces\\IWishlistItemRepo.cs",
+              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Interfaces\\IWishlistItemRepo.cs",
+              "RelativeToolTip": "BookAddict.Application\\Interfaces\\IWishlistItemRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T10:16:07.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateAuthorHandler.cs",
-              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Handlers\\AuthorHandler\\UpdateAuthorHandler.cs",
-              "RelativeDocumentMoniker": "BookAddict.Application\\Handlers\\AuthorHandler\\UpdateAuthorHandler.cs",
-              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Handlers\\AuthorHandler\\UpdateAuthorHandler.cs",
-              "RelativeToolTip": "BookAddict.Application\\Handlers\\AuthorHandler\\UpdateAuthorHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T10:12:23.332Z"
+              "WhenOpened": "2024-06-13T17:47:32.538Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "UpdateAuthorRequest.cs",
-              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Commands\\AuthorCommands\\UpdateAuthorRequest.cs",
-              "RelativeDocumentMoniker": "BookAddict.Application\\Commands\\AuthorCommands\\UpdateAuthorRequest.cs",
-              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Commands\\AuthorCommands\\UpdateAuthorRequest.cs",
-              "RelativeToolTip": "BookAddict.Application\\Commands\\AuthorCommands\\UpdateAuthorRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
+              "Title": "WishlistItemRepo.cs",
+              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\DataRepo.Core\\Repositories\\WishlistItemRepo.cs",
+              "RelativeDocumentMoniker": "DataRepo.Core\\Repositories\\WishlistItemRepo.cs",
+              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\DataRepo.Core\\Repositories\\WishlistItemRepo.cs",
+              "RelativeToolTip": "DataRepo.Core\\Repositories\\WishlistItemRepo.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAwAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T10:09:58.903Z"
+              "WhenOpened": "2024-06-13T17:46:04.994Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AuthorController.cs",
-              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\Controllers\\AuthorController.cs",
-              "RelativeDocumentMoniker": "BookAdict\\Controllers\\AuthorController.cs",
-              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\Controllers\\AuthorController.cs",
-              "RelativeToolTip": "BookAdict\\Controllers\\AuthorController.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAgwE0AAAB8AAAA",
+              "DocumentIndex": 3,
+              "Title": "DeleteWishlistItemHandler.cs",
+              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Handlers\\WishlistHandler\\DeleteWishlistItemHandler.cs",
+              "RelativeDocumentMoniker": "BookAddict.Application\\Handlers\\WishlistHandler\\DeleteWishlistItemHandler.cs",
+              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Handlers\\WishlistHandler\\DeleteWishlistItemHandler.cs",
+              "RelativeToolTip": "BookAddict.Application\\Handlers\\WishlistHandler\\DeleteWishlistItemHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-11T10:09:38.929Z",
+              "WhenOpened": "2024-06-13T17:43:42.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DeleteWishlistItemRequest.cs",
+              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Commands\\WishlistCommands\\DeleteWishlistItemRequest.cs",
+              "RelativeDocumentMoniker": "BookAddict.Application\\Commands\\WishlistCommands\\DeleteWishlistItemRequest.cs",
+              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Commands\\WishlistCommands\\DeleteWishlistItemRequest.cs",
+              "RelativeToolTip": "BookAddict.Application\\Commands\\WishlistCommands\\DeleteWishlistItemRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T17:42:09.396Z",
               "EditorCaption": ""
             }
           ]

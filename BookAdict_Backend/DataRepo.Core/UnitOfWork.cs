@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BookAddict.Persistance.Repositories;
 
 namespace DataRepo.Ef
 {
@@ -25,7 +26,9 @@ namespace DataRepo.Ef
         public IUserRepo User { get; private set; }
         public IOrderServices Order { get; private set; }
 
-        public UnitOfWork(ApplicationDbContext context, IMemoryCache memoryCache, UserManager<ApplicationUser> userManager)
+        public IWishlistItemRepo WishlistItem { get; private set; }
+
+        public UnitOfWork(ApplicationDbContext context, IMemoryCache memoryCache, UserManager<ApplicationUser> userManager, IWishlistItemRepo wishlistItem)
         {
             _context = context;
             _userManager = userManager;
@@ -36,7 +39,7 @@ namespace DataRepo.Ef
             User = new UserRepo(_userManager);
             cartServices = new CartServices(_memoryCache, User, Books);
             Order = new OrderRepo(_context);
-
+            WishlistItem = new WishlistItemRepo(_context);
         }
         public void OnComplete()
         {

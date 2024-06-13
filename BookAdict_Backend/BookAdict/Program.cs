@@ -13,6 +13,7 @@ using Stripe;
 using System.Text;
 using System.Text.Json.Serialization;
 using System.Reflection;
+using BookAddict.Persistance.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -41,6 +42,7 @@ builder.Services.AddTransient<IImageServices, ImageService>();
 builder.Services.AddTransient<IAuthService, AuthService>();
 builder.Services.AddScoped<IDBContext,DbContextService>();
 builder.Services.AddScoped<PaymentService>();
+builder.Services.AddScoped<IWishlistItemRepo,WishlistItemRepo>();
 builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromAssemblies(applicationAssemply));
 builder.Services.AddCors();
 builder.Services.AddMemoryCache();
