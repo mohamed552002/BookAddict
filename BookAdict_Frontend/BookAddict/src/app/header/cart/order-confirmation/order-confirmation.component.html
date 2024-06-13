@@ -1,0 +1,57 @@
+<div *ngIf="!isLoading" class="checkout-container row">
+  <div class="col-lg-6">
+    <div *ngFor="let item of cartItems"  class="items mb-2 mt-2  d-flex p-4">
+      <img [src]="cartApi.localhost + item.imgUrl" >
+      <div class="book-details ms-3 w-100 d-flex flex-column justify-content-between">
+        <div>
+        <div class="name-price d-flex justify-content-between">
+          <h4>{{item.name}}</h4>
+          <h4>{{item.singlePrice | currency}}</h4>
+        </div>
+      </div>
+        <div class="d-flex">
+          <div class="quantity d-flex">
+            <button class="btn" (click)="decreaseQuantity(item)">-</button>
+            <p class="my-0">{{item.quantity}}</p>
+            <button class="btn" (click)="increaseQuantity(item)" >+</button>
+          </div>
+          <div class="delete-item">
+            <button class="btn ms-2"><fa-icon [icon]="faTrashAlt"></fa-icon></button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="summary mt-2 m-0 col-lg-6">
+    <div class="w-100 pb-3">
+    <p class="head">Summary</p>
+    <div class="total justify-content-between d-flex">
+      <p>Total Price</p>
+      <p>{{price.totalPrice | currency}}</p>
+    </div>
+    <div class="discount justify-content-between d-flex">
+      <p>Discount</p>
+      <p>{{price.discount | currency}}</p>
+    </div>
+    <div class="after-discount justify-content-between d-flex">
+      <p>Price after discount</p>
+      <p>{{price.totalPrice - price.discount | currency}}</p>
+    </div>
+    <div class="promocode-form">
+      <p>Promo Code:</p>
+      <input placeholder="Enter Promocode" class="form-control">
+    </div>
+  </div>
+    <hr>
+  <div class="total-price d-flex justify-content-between pt-2">
+    <p>Total</p>
+    <p>{{price.totalPrice - price.discount | currency}}</p>
+  </div>
+  <div class="checkout ">
+    <button class="checkout-btn btn btn-dark w-100 mb-2" (click)="confirmOrder(cartItems,true,cartItems[0].userId)">Checkout</button>
+    <button class="checkout-btn btn btn-outline-secondary w-100 mt-2" (click)="confirmOrder(cartItems,false,cartItems[0].userId)">Pay With Credit Card</button>
+  </div>
+  </div>
+</div>
+<loading-spinner class="d-flex justify-content-center" *ngIf="isLoading"></loading-spinner>
