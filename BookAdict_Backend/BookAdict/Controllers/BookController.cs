@@ -5,9 +5,9 @@ using BookAdict.Interfaces;
 using BookAdict.Queries.BookQueries;
 using BookAdict.Services;
 using DataRepo.Ef;
-using DataRepository.Core.DTOS.BookDtos;
-using DataRepository.Core.Interfaces;
-using DataRepository.Core.Models;
+using BookAddict.Application.DTOS.BookDtos;
+using BookAddict.Application.Interfaces;
+using BookAddict.Domain.Models;
 using MediatR;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
@@ -27,8 +27,6 @@ namespace BookAdict.Controllers
         {
             _mediator = mediator;
         }
-
-        //private readonly IBaseRepository<Book> _bookRepository;
 
         [HttpGet("GetAllBooks")]
         public async Task<IActionResult> GetAllBooks([FromQuery] string? sortBy , [FromQuery] string? categoryName)

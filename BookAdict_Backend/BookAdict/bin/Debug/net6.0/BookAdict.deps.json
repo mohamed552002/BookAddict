@@ -10,8 +10,9 @@
         "dependencies": {
           "AutoMapper": "12.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
-          "DataRepo.Ef": "1.0.0",
-          "DataRepository.Core": "1.0.0",
+          "BookAddict.Application": "1.0.0",
+          "BookAddict.Domain": "1.0.0",
+          "BookAddict.Persistance": "1.0.0",
           "MediatR": "12.2.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.26",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.26",
@@ -912,25 +913,41 @@
           }
         }
       },
-      "DataRepo.Ef/1.0.0": {
+      "BookAddict.Application/1.0.0": {
         "dependencies": {
-          "DataRepository.Core": "1.0.0",
+          "AutoMapper": "12.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "BookAddict.Domain": "1.0.0",
+          "MediatR": "12.2.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.26",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.26",
+          "Microsoft.AspNetCore.Identity.UI": "6.0.26",
+          "Stripe.net": "44.3.0"
+        },
+        "runtime": {
+          "BookAddict.Application.dll": {}
+        }
+      },
+      "BookAddict.Domain/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.26",
+          "Microsoft.EntityFrameworkCore": "7.0.2"
+        },
+        "runtime": {
+          "BookAddict.Domain.dll": {}
+        }
+      },
+      "BookAddict.Persistance/1.0.0": {
+        "dependencies": {
+          "BookAddict.Application": "1.0.0",
+          "BookAddict.Domain": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.26",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.26",
           "Microsoft.EntityFrameworkCore": "7.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
         },
         "runtime": {
-          "DataRepo.Ef.dll": {}
-        }
-      },
-      "DataRepository.Core/1.0.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.26",
-          "Microsoft.EntityFrameworkCore": "7.0.2"
-        },
-        "runtime": {
-          "DataRepository.Core.dll": {}
+          "BookAddict.Persistance.dll": {}
         }
       }
     }
@@ -1564,12 +1581,17 @@
       "path": "system.windows.extensions/6.0.0",
       "hashPath": "system.windows.extensions.6.0.0.nupkg.sha512"
     },
-    "DataRepo.Ef/1.0.0": {
+    "BookAddict.Application/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "DataRepository.Core/1.0.0": {
+    "BookAddict.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookAddict.Persistance/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "luTbskJG82K8gPVVHAQ3fNQap7u0Xs5VubT7vct0/nc=",
+  "Hash": "uKyW+iq5TSV76Msb6+BkXThonq54a//dHwzryT/uazM=",
   "Source": "BookAdict",
   "BasePath": "_content/BookAdict",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "BookAdict\\wwwroot",
       "Source": "BookAdict",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "Pattern": "**"
     }
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "C:\\Users\\mozam\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.26\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\16110423-7f16-414c-8884-839c5b474767.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\16110423-7f16-414c-8884-839c5b474767.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/16110423-7f16-414c-8884-839c5b474767.jpg",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\16110423-7f16-414c-8884-839c5b474767.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\2640779b-6d02-4aa9-a6de-4c3c31037354.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\2640779b-6d02-4aa9-a6de-4c3c31037354.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/2640779b-6d02-4aa9-a6de-4c3c31037354.jpg",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\2640779b-6d02-4aa9-a6de-4c3c31037354.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\3da2b652-e00f-486d-902b-f42c5d121933.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\3da2b652-e00f-486d-902b-f42c5d121933.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/3da2b652-e00f-486d-902b-f42c5d121933.jpg",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\3da2b652-e00f-486d-902b-f42c5d121933.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\489099f8-3056-4a8d-be38-4769ee03d908.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\489099f8-3056-4a8d-be38-4769ee03d908.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/489099f8-3056-4a8d-be38-4769ee03d908.jpg",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\489099f8-3056-4a8d-be38-4769ee03d908.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\49ed468b-9ba6-4ce7-8b1b-4bc5479e168f.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\49ed468b-9ba6-4ce7-8b1b-4bc5479e168f.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/49ed468b-9ba6-4ce7-8b1b-4bc5479e168f.jpg",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\49ed468b-9ba6-4ce7-8b1b-4bc5479e168f.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\4e7598c2-c363-453b-b3e0-3a50ab28ba87.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\4e7598c2-c363-453b-b3e0-3a50ab28ba87.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/4e7598c2-c363-453b-b3e0-3a50ab28ba87.jpg",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\4e7598c2-c363-453b-b3e0-3a50ab28ba87.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\5c6fcc13-f890-49d3-9034-7cbb6faae495.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\5c6fcc13-f890-49d3-9034-7cbb6faae495.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/5c6fcc13-f890-49d3-9034-7cbb6faae495.jpg",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\5c6fcc13-f890-49d3-9034-7cbb6faae495.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\625d7c35-1c34-4078-8f69-0ed0e6debcc3.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\625d7c35-1c34-4078-8f69-0ed0e6debcc3.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/625d7c35-1c34-4078-8f69-0ed0e6debcc3.jpg",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\625d7c35-1c34-4078-8f69-0ed0e6debcc3.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\7cf3c74c-6afa-4163-97a0-6a7937be0746.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\7cf3c74c-6afa-4163-97a0-6a7937be0746.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/7cf3c74c-6afa-4163-97a0-6a7937be0746.jpg",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\7cf3c74c-6afa-4163-97a0-6a7937be0746.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\80dbc3ea-3893-48ac-82dc-32110f45f9ed.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\80dbc3ea-3893-48ac-82dc-32110f45f9ed.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/80dbc3ea-3893-48ac-82dc-32110f45f9ed.jpg",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\80dbc3ea-3893-48ac-82dc-32110f45f9ed.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\a36f483e-e14c-4847-bba8-2117ce2b3b75.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\a36f483e-e14c-4847-bba8-2117ce2b3b75.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/a36f483e-e14c-4847-bba8-2117ce2b3b75.jpg",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\a36f483e-e14c-4847-bba8-2117ce2b3b75.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\a6e4bb54-6646-4dee-a50e-4d40ccfa3508.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\a6e4bb54-6646-4dee-a50e-4d40ccfa3508.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/a6e4bb54-6646-4dee-a50e-4d40ccfa3508.jpg",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\a6e4bb54-6646-4dee-a50e-4d40ccfa3508.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\de98ca2c-b2ed-401d-bdca-7e2641d468c5.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\de98ca2c-b2ed-401d-bdca-7e2641d468c5.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/de98ca2c-b2ed-401d-bdca-7e2641d468c5.jpg",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\de98ca2c-b2ed-401d-bdca-7e2641d468c5.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\e5eb1c99-b1c3-4823-96cb-d272e423711e.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\e5eb1c99-b1c3-4823-96cb-d272e423711e.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/e5eb1c99-b1c3-4823-96cb-d272e423711e.jpg",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\e5eb1c99-b1c3-4823-96cb-d272e423711e.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\f1d7136b-6876-425e-a5e7-6069bef64b00.jpg",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\f1d7136b-6876-425e-a5e7-6069bef64b00.jpg",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/f1d7136b-6876-425e-a5e7-6069bef64b00.jpg",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\f1d7136b-6876-425e-a5e7-6069bef64b00.jpg"
     },
     {
-      "Identity": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\No_Image.png",
+      "Identity": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\Images\\No_Image.png",
       "SourceId": "BookAdict",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\wwwroot\\",
+      "ContentRoot": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\wwwroot\\",
       "BasePath": "_content/BookAdict",
       "RelativePath": "Images/No_Image.png",
       "AssetKind": "All",

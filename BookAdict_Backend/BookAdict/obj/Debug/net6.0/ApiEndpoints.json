@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "roleModel",
-        "Type": "DataRepository.Core.Dtos.AddRoleDto",
+        "Type": "BookAddict.Application.DTOS.AuthDtos.AddRoleDto",
         "IsRequired": true
       }
     ],
@@ -25,7 +25,7 @@
     "Parameters": [
       {
         "Name": "tokenModel",
-        "Type": "DataRepository.Core.Dtos.TokenRequestDto",
+        "Type": "BookAddict.Application.DTOS.AuthDtos.TokenRequestDto",
         "IsRequired": true
       }
     ],
@@ -51,7 +51,7 @@
     "Parameters": [
       {
         "Name": "registerModel",
-        "Type": "DataRepository.Core.Dtos.RegisterRequestDto",
+        "Type": "BookAddict.Application.DTOS.AuthDtos.RegisterRequestDto",
         "IsRequired": true
       }
     ],
@@ -91,7 +91,22 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
   },
   {
     "ContainingType": "BookAdict.Controllers.AuthorController",
@@ -107,7 +122,22 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
   },
   {
     "ContainingType": "BookAdict.Controllers.AuthorController",
@@ -117,7 +147,13 @@
     "IsController": true,
     "Order": 0,
     "Parameters": [],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
   },
   {
     "ContainingType": "BookAdict.Controllers.AuthorController",
@@ -133,7 +169,22 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
   },
   {
     "ContainingType": "BookAdict.Controllers.AuthorController",
@@ -149,7 +200,22 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 404
+      }
+    ]
   },
   {
     "ContainingType": "BookAdict.Controllers.AuthorController",
@@ -185,7 +251,22 @@
         "IsRequired": false
       }
     ],
-    "ReturnTypes": []
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      },
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 400
+      }
+    ]
   },
   {
     "ContainingType": "BookAdict.Controllers.BookController",
@@ -444,7 +525,7 @@
     "Parameters": [
       {
         "Name": "cartItem",
-        "Type": "DataRepository.Core.Dtos.CartDtos.CartItem",
+        "Type": "BookAddict.Application.DTOS.CartDtos.CartItem",
         "IsRequired": true
       }
     ],
@@ -460,7 +541,7 @@
     "Parameters": [
       {
         "Name": "cartItem",
-        "Type": "DataRepository.Core.Dtos.CartDtos.CartItem",
+        "Type": "BookAddict.Application.DTOS.CartDtos.CartItem",
         "IsRequired": true
       }
     ],
@@ -492,7 +573,7 @@
     "Parameters": [
       {
         "Name": "categoryDto",
-        "Type": "DataRepository.Core.DTOS.CategoryDtos.CategoryInDto",
+        "Type": "BookAdict.Application.DTOS.CategoryDtos.CategoryInDto",
         "IsRequired": true
       }
     ],
@@ -550,7 +631,7 @@
     "Parameters": [
       {
         "Name": "categoryIn",
-        "Type": "DataRepository.Core.DTOS.CategoryDtos.CategoryInDto",
+        "Type": "BookAdict.Application.DTOS.CategoryDtos.CategoryInDto",
         "IsRequired": true
       }
     ],
@@ -566,7 +647,7 @@
     "Parameters": [
       {
         "Name": "items",
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[DataRepository.Core.Dtos.OrderItemDto, DataRepository.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[BookAddict.Application.DTOS.CartDtos.CartItem, BookAddict.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "IsRequired": true
       },
       {
@@ -580,6 +661,16 @@
         "IsRequired": false
       }
     ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BookAdict.Controllers.OrderController",
+    "Method": "ConfirmPayment",
+    "RelativePath": "api/Order/ConfirmPayment",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
     "ReturnTypes": []
   }
 ]

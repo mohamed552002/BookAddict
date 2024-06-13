@@ -1,10 +1,9 @@
-﻿using BookAdict.Commands;
+﻿using BookAddict.Application.DTOS.AuthDtos;
+using BookAdict.Commands;
 using BookAdict.Commands.AuthCommands;
 using BookAdict.Queries.AuthQueries;
-using DataRepository.Core.Dtos;
-using DataRepository.Core.Models;
+
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 

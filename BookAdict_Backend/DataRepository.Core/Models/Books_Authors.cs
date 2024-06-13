@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataRepository.Core.Models
+namespace BookAddict.Domain.Models
 {
     public class Books_Authors
     {

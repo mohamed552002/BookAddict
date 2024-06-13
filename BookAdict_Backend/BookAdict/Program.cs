@@ -1,11 +1,10 @@
 using BookAdict.Interfaces;
 using BookAdict.Services;
 using DataRepo.Ef;
-using DataRepo.Ef.Repositories;
 using DataRepo.Ef.Services;
-using DataRepository.Core.HelperModels;
-using DataRepository.Core.Interfaces;
-using DataRepository.Core.Models;
+using BookAddict.Domain.HelperModels;
+using BookAddict.Application.Interfaces;
+using BookAddict.Domain.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -13,6 +12,7 @@ using Microsoft.IdentityModel.Tokens;
 using Stripe;
 using System.Text;
 using System.Text.Json.Serialization;
+using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -33,14 +33,15 @@ builder.Services.AddControllers().AddJsonOptions(options =>
 {
     options.JsonSerializerOptions.ReferenceHandler = ReferenceHandler.IgnoreCycles;
 });
-builder.Services.AddAutoMapper(typeof(Program));
+var applicationAssemply = Assembly.Load("BookAddict.Application");
+builder.Services.AddAutoMapper(applicationAssemply);
 //builder.Services.AddTransient(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 builder.Services.AddTransient<IImageServices, ImageService>();
 builder.Services.AddTransient<IAuthService, AuthService>();
 builder.Services.AddScoped<IDBContext,DbContextService>();
 builder.Services.AddScoped<PaymentService>();
-builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromAssemblies(typeof(Program).Assembly));
+builder.Services.AddMediatR(configuration => configuration.RegisterServicesFromAssemblies(applicationAssemply));
 builder.Services.AddCors();
 builder.Services.AddMemoryCache();
 

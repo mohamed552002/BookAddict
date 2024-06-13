@@ -16,6 +16,7 @@ import { CanActivateAdmin } from './container/authentication/auth.gaurd.service'
 import { BooksUserComponent } from './container/books-user/books-user.component';
 import { AuthorsUserComponent } from './container/authors-user/authors-user.component';
 import { BookUserComponent } from './container/books-user/book-user/book-user.component';
+import { OrderConfirmationComponent } from './header/cart/order-confirmation/order-confirmation.component';
 
 const routes: Routes = [
   {path: "", component:HomeComponent},
@@ -33,7 +34,8 @@ const routes: Routes = [
   {path:"books", component:BooksUserComponent},
   {path:"books/:id",component:BookUserComponent},
   {path:"authors" , component:AuthorsUserComponent},
-  {path:"auth" , component:AuthenticationComponent}
+  {path:"auth" , component:AuthenticationComponent},
+  {path:"orderConfirmation" , component:OrderConfirmationComponent}
 ];
 
 @NgModule({

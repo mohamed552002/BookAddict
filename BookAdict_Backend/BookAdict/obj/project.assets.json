@@ -1518,24 +1518,27 @@
           }
         }
       },
-      "DataRepo.Ef/1.0.0": {
+      "BookAddict.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "DataRepository.Core": "1.0.0",
+          "AutoMapper": "12.0.1",
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "BookAddict.Domain": "1.0.0",
+          "MediatR": "12.2.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.26",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.26",
-          "Microsoft.EntityFrameworkCore": "7.0.2",
-          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
+          "Microsoft.AspNetCore.Identity.UI": "6.0.26",
+          "Stripe.net": "44.3.0"
         },
         "compile": {
-          "bin/placeholder/DataRepo.Ef.dll": {}
+          "bin/placeholder/BookAddict.Application.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DataRepo.Ef.dll": {}
+          "bin/placeholder/BookAddict.Application.dll": {}
         }
       },
-      "DataRepository.Core/1.0.0": {
+      "BookAddict.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -1543,10 +1546,28 @@
           "Microsoft.EntityFrameworkCore": "7.0.2"
         },
         "compile": {
-          "bin/placeholder/DataRepository.Core.dll": {}
+          "bin/placeholder/BookAddict.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DataRepository.Core.dll": {}
+          "bin/placeholder/BookAddict.Domain.dll": {}
+        }
+      },
+      "BookAddict.Persistance/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BookAddict.Application": "1.0.0",
+          "BookAddict.Domain": "1.0.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.26",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.26",
+          "Microsoft.EntityFrameworkCore": "7.0.2",
+          "Microsoft.EntityFrameworkCore.SqlServer": "7.0.2"
+        },
+        "compile": {
+          "bin/placeholder/BookAddict.Persistance.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BookAddict.Persistance.dll": {}
         }
       }
     }
@@ -4632,23 +4653,29 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "DataRepo.Ef/1.0.0": {
+    "BookAddict.Application/1.0.0": {
       "type": "project",
-      "path": "../DataRepo.Core/DataRepo.Ef.csproj",
-      "msbuildProject": "../DataRepo.Core/DataRepo.Ef.csproj"
+      "path": "../BookAddict.Application/BookAddict.Application.csproj",
+      "msbuildProject": "../BookAddict.Application/BookAddict.Application.csproj"
     },
-    "DataRepository.Core/1.0.0": {
+    "BookAddict.Domain/1.0.0": {
       "type": "project",
-      "path": "../DataRepository.Core/DataRepository.Core.csproj",
-      "msbuildProject": "../DataRepository.Core/DataRepository.Core.csproj"
+      "path": "../DataRepository.Core/BookAddict.Domain.csproj",
+      "msbuildProject": "../DataRepository.Core/BookAddict.Domain.csproj"
+    },
+    "BookAddict.Persistance/1.0.0": {
+      "type": "project",
+      "path": "../DataRepo.Core/BookAddict.Persistance.csproj",
+      "msbuildProject": "../DataRepo.Core/BookAddict.Persistance.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
-      "DataRepo.Ef >= 1.0.0",
-      "DataRepository.Core >= 1.0.0",
+      "BookAddict.Application >= 1.0.0",
+      "BookAddict.Domain >= 1.0.0",
+      "BookAddict.Persistance >= 1.0.0",
       "MediatR >= 12.2.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.26",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.26",
@@ -4665,11 +4692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\BookAdict.csproj",
+      "projectUniqueName": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\BookAdict.csproj",
       "projectName": "BookAdict",
-      "projectPath": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\BookAdict.csproj",
+      "projectPath": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\BookAdict.csproj",
       "packagesPath": "C:\\Users\\mozam\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\obj\\",
+      "outputPath": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mozam\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -4686,11 +4713,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepo.Core\\DataRepo.Ef.csproj": {
-              "projectPath": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepo.Core\\DataRepo.Ef.csproj"
+            "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\BookAddict.Application.csproj": {
+              "projectPath": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\BookAddict.Application.csproj"
             },
-            "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj": {
-              "projectPath": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj"
+            "D:\\project dublicate\\BA\\BookAdict_Backend\\DataRepo.Core\\BookAddict.Persistance.csproj": {
+              "projectPath": "D:\\project dublicate\\BA\\BookAdict_Backend\\DataRepo.Core\\BookAddict.Persistance.csproj"
+            },
+            "D:\\project dublicate\\BA\\BookAdict_Backend\\DataRepository.Core\\BookAddict.Domain.csproj": {
+              "projectPath": "D:\\project dublicate\\BA\\BookAdict_Backend\\DataRepository.Core\\BookAddict.Domain.csproj"
             }
           }
         }

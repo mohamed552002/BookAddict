@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule, provideClientHydration } from '@angular/platform-browser';
 import { CarouselModule } from 'ngx-owl-carousel-o';
 import { AppRoutingModule } from './app-routing.module';
@@ -20,8 +21,7 @@ import { AddBookComponent } from './container/admin-dashboard/book-admin/add-boo
 import { AuthorAdminComponent } from './container/admin-dashboard/author-admin/author-admin.component';
 import { AddAuthorComponent } from './container/admin-dashboard/author-admin/add-author/add-author.component';
 import { CategoryAdminComponent } from './container/admin-dashboard/category-admin/category-admin.component';
-import { AddCategoryComponent } from './container/admin-dashboard/category-admin/add-category/add-category.component'
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { AddCategoryComponent } from './container/admin-dashboard/category-admin/add-category/add-category.component';
 import { HTTP_INTERCEPTORS, HttpClientModule, provideHttpClient, withFetch } from '@angular/common/http';
 import { EditCategoryComponent } from './container/admin-dashboard/category-admin/edit-category/edit-category.component';
 import { EditBookComponent } from './container/admin-dashboard/book-admin/edit-book/edit-book.component';

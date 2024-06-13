@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataRepository.Core.HelperModels
+namespace BookAddict.Domain.HelperModels
 {
     public class JWTConfig
     {

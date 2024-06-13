@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xfp+nxI5U9CtVjHf3xe6rRMLPGiZ6yz+drCMuHho2RoDNa7DppmgNCVkaZQN3ird/fv13UxSEP3GBKqgEk6e3Q==",
+  "dgSpecHash": "odrVZxSzE68U4JrtTiwxVb+1MShDCZcXUgx34HldSKvMAMniNW794uXpBABE3UYVDp1ZrzlclouSc2nOnyxtlg==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj",
+  "projectFilePath": "D:\\project dublicate\\BA\\BookAdict_Backend\\DataRepository.Core\\BookAddict.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mozam\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.26\\microsoft.aspnetcore.cryptography.internal.6.0.26.nupkg.sha512",
     "C:\\Users\\mozam\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.26\\microsoft.aspnetcore.cryptography.keyderivation.6.0.26.nupkg.sha512",

@@ -1,5 +1,5 @@
-﻿using DataRepository.Core.Interfaces;
-using DataRepository.Core.Models;
+﻿using BookAddict.Application.Interfaces;
+using BookAddict.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

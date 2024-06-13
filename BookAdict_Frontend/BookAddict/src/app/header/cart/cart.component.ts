@@ -6,6 +6,7 @@ import { User } from '../../Models/User';
 import { Subscription } from 'rxjs';
 import { faCartShopping, faTrash } from '@fortawesome/free-solid-svg-icons';
 import { CartServices } from './cart-services.service';
+import { Route, Router } from '@angular/router';
 
 @Component({
   selector: 'app-cart',
@@ -27,7 +28,7 @@ export class CartComponent implements OnInit, OnDestroy {
     Removed:false
   }
   private userSub:Subscription;
-  constructor(private authApis:AuthApis, protected cartApi:CartApis,private cartServices:CartServices){}
+  constructor(private authApis:AuthApis, protected cartApi:CartApis,private cartServices:CartServices,private router:Router){}
   ngOnInit(){
     this.cartApi.cartItems$.subscribe({
       next: data => {
@@ -91,6 +92,9 @@ export class CartComponent implements OnInit, OnDestroy {
         Removed:false
       },1500)
     })
+  }
+  checkout(){
+    this.router.navigate(["/orderConfirmation/"])
   }
 
   ngOnDestroy(){

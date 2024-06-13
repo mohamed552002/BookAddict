@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj": {}
+    "D:\\project dublicate\\BookAddict-main\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj": {
+    "D:\\project dublicate\\BookAddict-main\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj",
+        "projectUniqueName": "D:\\project dublicate\\BookAddict-main\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj",
         "projectName": "DataRepository.Core",
-        "projectPath": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj",
+        "projectPath": "D:\\project dublicate\\BookAddict-main\\BookAdict_Backend\\DataRepository.Core\\DataRepository.Core.csproj",
         "packagesPath": "C:\\Users\\mozam\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\obj\\",
+        "outputPath": "D:\\project dublicate\\BookAddict-main\\BookAdict_Backend\\DataRepository.Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mozam\\AppData\\Roaming\\NuGet\\NuGet.Config",

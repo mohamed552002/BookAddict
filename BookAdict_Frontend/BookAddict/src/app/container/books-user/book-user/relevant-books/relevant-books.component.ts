@@ -11,14 +11,17 @@ import { faRightLeft } from '@fortawesome/free-solid-svg-icons';
   styleUrl: './relevant-books.component.css'
 })
 export class RelevantBooksComponent implements OnInit {
-  books:any = "";
+  books:any[];
   host:string = this.bookApi.localhost;
-  @Input() categoryId:number = 0;
+  @Input() bookInput
   constructor(private bookApi:BookApis , private router:Router){}
   ngOnInit(): void {
-    this.bookApi.getBookByCategoryid(this.categoryId).subscribe({
+    this.bookApi.getBookByCategoryid(this.bookInput.category.id).subscribe({
       next : (data) => {
         this.books = data
+        console.log(data)
+        console.log()
+        this.books.splice(this.books.indexOf(this.books.find((book) => book.id == this.bookInput.id)),1)
       }
     })
   }

@@ -25,7 +25,7 @@ namespace DataRepo.Ef.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("DataRepository.Core.Models.ApplicationUser", b =>
+            modelBuilder.Entity("BookAddict.Domain.Models.ApplicationUser", b =>
                 {
                     b.Property<string>("Id")
                         .HasColumnType("nvarchar(450)");
@@ -100,7 +100,7 @@ namespace DataRepo.Ef.Migrations
                     b.ToTable("Users", "security");
                 });
 
-            modelBuilder.Entity("DataRepository.Core.Models.Author", b =>
+            modelBuilder.Entity("BookAddict.Domain.Models.Author", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -127,7 +127,7 @@ namespace DataRepo.Ef.Migrations
                     b.ToTable("Author");
                 });
 
-            modelBuilder.Entity("DataRepository.Core.Models.Book", b =>
+            modelBuilder.Entity("BookAddict.Domain.Models.Book", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -182,7 +182,7 @@ namespace DataRepo.Ef.Migrations
                     b.ToTable("Books");
                 });
 
-            modelBuilder.Entity("DataRepository.Core.Models.Books_Authors", b =>
+            modelBuilder.Entity("BookAddict.Domain.Models.Books_Authors", b =>
                 {
                     b.Property<int>("AuthorId")
                         .HasColumnType("int");
@@ -197,7 +197,7 @@ namespace DataRepo.Ef.Migrations
                     b.ToTable("Books_Authors");
                 });
 
-            modelBuilder.Entity("DataRepository.Core.Models.Category", b =>
+            modelBuilder.Entity("BookAddict.Domain.Models.Category", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -362,9 +362,9 @@ namespace DataRepo.Ef.Migrations
                     b.ToTable("UserTokens", "security");
                 });
 
-            modelBuilder.Entity("DataRepository.Core.Models.Book", b =>
+            modelBuilder.Entity("BookAddict.Domain.Models.Book", b =>
                 {
-                    b.HasOne("DataRepository.Core.Models.Category", "Category")
+                    b.HasOne("BookAddict.Domain.Models.Category", "Category")
                         .WithMany("Books")
                         .HasForeignKey("CategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -373,15 +373,15 @@ namespace DataRepo.Ef.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("DataRepository.Core.Models.Books_Authors", b =>
+            modelBuilder.Entity("BookAddict.Domain.Models.Books_Authors", b =>
                 {
-                    b.HasOne("DataRepository.Core.Models.Author", "Author")
+                    b.HasOne("BookAddict.Domain.Models.Author", "Author")
                         .WithMany("Books")
                         .HasForeignKey("AuthorId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DataRepository.Core.Models.Book", "Books")
+                    b.HasOne("BookAddict.Domain.Models.Book", "Books")
                         .WithMany("Authors")
                         .HasForeignKey("BookId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -403,7 +403,7 @@ namespace DataRepo.Ef.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("DataRepository.Core.Models.ApplicationUser", null)
+                    b.HasOne("BookAddict.Domain.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -412,7 +412,7 @@ namespace DataRepo.Ef.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("DataRepository.Core.Models.ApplicationUser", null)
+                    b.HasOne("BookAddict.Domain.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -427,7 +427,7 @@ namespace DataRepo.Ef.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("DataRepository.Core.Models.ApplicationUser", null)
+                    b.HasOne("BookAddict.Domain.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -436,24 +436,24 @@ namespace DataRepo.Ef.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("DataRepository.Core.Models.ApplicationUser", null)
+                    b.HasOne("BookAddict.Domain.Models.ApplicationUser", null)
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("DataRepository.Core.Models.Author", b =>
+            modelBuilder.Entity("BookAddict.Domain.Models.Author", b =>
                 {
                     b.Navigation("Books");
                 });
 
-            modelBuilder.Entity("DataRepository.Core.Models.Book", b =>
+            modelBuilder.Entity("BookAddict.Domain.Models.Book", b =>
                 {
                     b.Navigation("Authors");
                 });
 
-            modelBuilder.Entity("DataRepository.Core.Models.Category", b =>
+            modelBuilder.Entity("BookAddict.Domain.Models.Category", b =>
                 {
                     b.Navigation("Books");
                 });

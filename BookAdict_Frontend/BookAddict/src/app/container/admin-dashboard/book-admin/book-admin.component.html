@@ -32,7 +32,7 @@
           <td>{{book.category.name}}</td>
           <td>{{book.numberOfSales}}</td>
           <td><button class="btn btn-primary" routerLink="../editbook/{{book.id}}"><fa-icon [icon]="faPenToSquare"></fa-icon></button></td>
-          <td><button class="btn btn-danger"><fa-icon [icon]="faTrash"></fa-icon></button></td>
+          <td><button (click)="deleteBook(book)" class="btn btn-danger"><fa-icon [icon]="faTrash"></fa-icon></button></td>
         </tr>
       </tbody>
     </table>

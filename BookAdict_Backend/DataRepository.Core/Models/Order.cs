@@ -1,4 +1,4 @@
-﻿using DataRepository.Core.CustomAttributes;
+﻿
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -7,7 +7,7 @@ using System.Text;
 using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
-namespace DataRepository.Core.Models
+namespace BookAddict.Domain.Models
 {
     public class Order
     {
@@ -16,13 +16,12 @@ namespace DataRepository.Core.Models
         public Order(string UserId,IEnumerable<OrderItem> Items) 
         {
             this.UserId = UserId;
-            TotalPrice = Items.Sum(item => item.SinglePrice * item.Qyantity);
+            TotalPrice = Items.Sum(item => item.SinglePrice * item.Quantity);
         }
         public int Id { get; set; }
         public string UserId { get; set; }
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
         public bool IsDeliverd { get; set; } = false;
-        [DateChecker(ErrorMessage = "Date Is Wrong")]
         [DataType(DataType.Date)]
         public DateTime DeliverdAt { get; set; } = default(DateTime);
         [Required]

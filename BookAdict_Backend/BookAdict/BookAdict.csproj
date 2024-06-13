@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -23,8 +23,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\DataRepo.Core\DataRepo.Ef.csproj" />
-    <ProjectReference Include="..\DataRepository.Core\DataRepository.Core.csproj" />
+    <ProjectReference Include="..\BookAddict.Application\BookAddict.Application.csproj" />
+    <ProjectReference Include="..\DataRepo.Core\BookAddict.Persistance.csproj" />
+    <ProjectReference Include="..\DataRepository.Core\BookAddict.Domain.csproj" />
   </ItemGroup>
 
 </Project>

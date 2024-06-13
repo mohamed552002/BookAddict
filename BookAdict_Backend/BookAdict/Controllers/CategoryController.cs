@@ -1,8 +1,9 @@
 ﻿using AutoMapper;
 using Azure;
-using DataRepository.Core.DTOS.CategoryDtos;
-using DataRepository.Core.Interfaces;
-using DataRepository.Core.Models;
+using BookAddict.Application.DTOS.CategoryDtos;
+using BookAddict.Domain.Models;
+using BookAdict.Application.DTOS.CategoryDtos;
+using BookAddict.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BookAdict.Controllers
@@ -20,7 +21,8 @@ namespace BookAdict.Controllers
         [HttpGet("GetAllCategories")]
         public async Task<IActionResult> GetAllCategories()
         {
-            var categoryDto = _mapper.Map<List<CategoryDto>>(await _unitOfWork.Category.GetAllCategories());
+            var categories = await _unitOfWork.Category.GetAllCategories();
+            var categoryDto = _mapper.Map<List<CategoryDto>>(categories);
             return Ok(categoryDto);
         }
         [HttpGet("GetCategory/{id}")]

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using BookAdict.Interfaces;
-using DataRepository.Core.Interfaces;
+using BookAddict.Application.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 

@@ -1,6 +1,6 @@
 ﻿using BookAdict.Commands.CartCommands;
 using BookAdict.Queries.CartQueries;
-using DataRepository.Core.Dtos.CartDtos;
+using BookAddict.Application.DTOS.CartDtos;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;

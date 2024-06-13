@@ -1,6 +1,6 @@
 ﻿using DataRepo.Ef.Services;
-using DataRepository.Core.Interfaces;
-using DataRepository.Core.Models;
+using BookAddict.Application.Interfaces;
+using BookAddict.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;

@@ -19,4 +19,9 @@ export class BookAdminComponent implements OnInit {
       this.isLoaded = true;
     })
   }
+  deleteBook(book){
+    this.books.splice(this.books.indexOf(book),1)
+    this.bookApis.deleteBook(book.id).subscribe()
+
+  }
 }

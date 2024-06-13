@@ -1,82 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\BookAddict\\BookAdict_Backend\\",
+  "WorkspaceRootPath": "D:\\project dublicate\\BA\\BookAdict_Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|d:\\projects\\bookaddict\\bookadict_backend\\bookadict\\handlers\\orderhandlers\\confirmorderrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|solutionrelative:bookadict\\handlers\\orderhandlers\\confirmorderrequesthandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookadict\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|solutionrelative:bookadict\\controllers\\authorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|d:\\projects\\bookaddict\\bookadict_backend\\bookadict\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|solutionrelative:bookadict\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookaddict.application\\handlers\\authorhandler\\deleteauthorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|solutionrelative:bookaddict.application\\handlers\\authorhandler\\deleteauthorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|d:\\projects\\bookaddict\\bookadict_backend\\bookadict\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookaddict.application\\commands\\authorcommands\\deleteauthorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|solutionrelative:bookaddict.application\\commands\\authorcommands\\deleteauthorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookaddict.application\\handlers\\authorhandler\\updateauthorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|solutionrelative:bookaddict.application\\handlers\\authorhandler\\updateauthorhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookadict\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|solutionrelative:bookadict\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|d:\\projects\\bookaddict\\bookadict_backend\\bookadict\\queries\\orderqueries\\confirmorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|solutionrelative:bookadict\\queries\\orderqueries\\confirmorderrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|d:\\projects\\bookaddict\\bookadict_backend\\datarepository.core\\dtos\\confirmpaymentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|solutionrelative:datarepository.core\\dtos\\confirmpaymentresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|d:\\projects\\bookaddict\\bookadict_backend\\datarepository.core\\helpermodels\\jwtconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|solutionrelative:datarepository.core\\helpermodels\\jwtconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|d:\\projects\\bookaddict\\bookadict_backend\\datarepository.core\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|solutionrelative:datarepository.core\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|d:\\projects\\bookaddict\\bookadict_backend\\datarepository.core\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|solutionrelative:datarepository.core\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4362EE4F-8FCA-411E-9AC3-D34092AFE3A6}|DataRepo.Core\\DataRepo.Ef.csproj|d:\\projects\\bookaddict\\bookadict_backend\\datarepo.core\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4362EE4F-8FCA-411E-9AC3-D34092AFE3A6}|DataRepo.Core\\DataRepo.Ef.csproj|solutionrelative:datarepo.core\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|d:\\projects\\bookaddict\\bookadict_backend\\bookadict\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|solutionrelative:bookadict\\helpers\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|d:\\projects\\bookaddict\\bookadict_backend\\bookadict\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|solutionrelative:bookadict\\services\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|d:\\projects\\bookaddict\\bookadict_backend\\datarepository.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|solutionrelative:datarepository.core\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4362EE4F-8FCA-411E-9AC3-D34092AFE3A6}|DataRepo.Core\\DataRepo.Ef.csproj|d:\\projects\\bookaddict\\bookadict_backend\\datarepo.core\\repositories\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4362EE4F-8FCA-411E-9AC3-D34092AFE3A6}|DataRepo.Core\\DataRepo.Ef.csproj|solutionrelative:datarepo.core\\repositories\\orderrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|d:\\projects\\bookaddict\\bookadict_backend\\datarepository.core\\interfaces\\iorderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|solutionrelative:datarepository.core\\interfaces\\iorderservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|d:\\projects\\bookaddict\\bookadict_backend\\datarepository.core\\dtos\\cartdtos\\checkoutrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|solutionrelative:datarepository.core\\dtos\\cartdtos\\checkoutrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4362EE4F-8FCA-411E-9AC3-D34092AFE3A6}|DataRepo.Core\\DataRepo.Ef.csproj|d:\\projects\\bookaddict\\bookadict_backend\\datarepo.core\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4362EE4F-8FCA-411E-9AC3-D34092AFE3A6}|DataRepo.Core\\DataRepo.Ef.csproj|solutionrelative:datarepo.core\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|d:\\projects\\bookaddict\\bookadict_backend\\bookadict\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|solutionrelative:bookadict\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|d:\\projects\\bookaddict\\bookadict_backend\\bookadict\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A6189D68-51C7-4B80-A81D-1155E2769570}|BookAdict\\BookAdict.csproj|solutionrelative:bookadict\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|d:\\projects\\bookaddict\\bookadict_backend\\datarepository.core\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{484481F0-A95E-4883-A231-CC147598A4B0}|DataRepository.Core\\DataRepository.Core.csproj|solutionrelative:datarepository.core\\models\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|d:\\project dublicate\\ba\\bookadict_backend\\bookaddict.application\\commands\\authorcommands\\updateauthorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4646B9AE-A31F-4CE8-B810-17796BE8CA2A}|BookAddict.Application\\BookAddict.Application.csproj|solutionrelative:bookaddict.application\\commands\\authorcommands\\updateauthorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,237 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BookController.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\Controllers\\BookController.cs",
-              "RelativeDocumentMoniker": "BookAdict\\Controllers\\BookController.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\Controllers\\BookController.cs",
-              "RelativeToolTip": "BookAdict\\Controllers\\BookController.cs",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T12:45:56.907Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "BookAdict\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "BookAdict\\Controllers\\OrderController.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCIAAAA1AAAA",
+              "Title": "DeleteAuthorHandler.cs",
+              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Handlers\\AuthorHandler\\DeleteAuthorHandler.cs",
+              "RelativeDocumentMoniker": "BookAddict.Application\\Handlers\\AuthorHandler\\DeleteAuthorHandler.cs",
+              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Handlers\\AuthorHandler\\DeleteAuthorHandler.cs",
+              "RelativeToolTip": "BookAddict.Application\\Handlers\\AuthorHandler\\DeleteAuthorHandler.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACAAAAAXAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T11:53:49.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-11T10:19:48.057Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ConfirmOrderRequestHandler.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\Handlers\\OrderHandlers\\ConfirmOrderRequestHandler.cs",
-              "RelativeDocumentMoniker": "BookAdict\\Handlers\\OrderHandlers\\ConfirmOrderRequestHandler.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\Handlers\\OrderHandlers\\ConfirmOrderRequestHandler.cs",
-              "RelativeToolTip": "BookAdict\\Handlers\\OrderHandlers\\ConfirmOrderRequestHandler.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowA8AAAAnAAAA",
+              "DocumentIndex": 2,
+              "Title": "DeleteAuthorRequest.cs",
+              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Commands\\AuthorCommands\\DeleteAuthorRequest.cs",
+              "RelativeDocumentMoniker": "BookAddict.Application\\Commands\\AuthorCommands\\DeleteAuthorRequest.cs",
+              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Commands\\AuthorCommands\\DeleteAuthorRequest.cs",
+              "RelativeToolTip": "BookAddict.Application\\Commands\\AuthorCommands\\DeleteAuthorRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T12:31:19.387Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ConfirmOrderRequest.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\Queries\\OrderQueries\\ConfirmOrderRequest.cs",
-              "RelativeDocumentMoniker": "BookAdict\\Queries\\OrderQueries\\ConfirmOrderRequest.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\Queries\\OrderQueries\\ConfirmOrderRequest.cs",
-              "RelativeToolTip": "BookAdict\\Queries\\OrderQueries\\ConfirmOrderRequest.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAqAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T12:28:03.51Z"
+              "WhenOpened": "2024-06-11T10:18:30.25Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "ConfirmPaymentResponse.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\Dtos\\ConfirmPaymentResponse.cs",
-              "RelativeDocumentMoniker": "DataRepository.Core\\Dtos\\ConfirmPaymentResponse.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\Dtos\\ConfirmPaymentResponse.cs",
-              "RelativeToolTip": "DataRepository.Core\\Dtos\\ConfirmPaymentResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAsAAAAmAAAA",
+              "Title": "BookController.cs",
+              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "BookAdict\\Controllers\\BookController.cs",
+              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\Controllers\\BookController.cs",
+              "RelativeToolTip": "BookAdict\\Controllers\\BookController.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAA4wB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T12:03:20.191Z"
+              "WhenOpened": "2024-06-11T10:16:07.871Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\Helpers\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "BookAdict\\Helpers\\MappingProfile.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\Helpers\\MappingProfile.cs",
-              "RelativeToolTip": "BookAdict\\Helpers\\MappingProfile.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAxwBsAAAAvAAAA",
+              "DocumentIndex": 3,
+              "Title": "UpdateAuthorHandler.cs",
+              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Handlers\\AuthorHandler\\UpdateAuthorHandler.cs",
+              "RelativeDocumentMoniker": "BookAddict.Application\\Handlers\\AuthorHandler\\UpdateAuthorHandler.cs",
+              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Handlers\\AuthorHandler\\UpdateAuthorHandler.cs",
+              "RelativeToolTip": "BookAddict.Application\\Handlers\\AuthorHandler\\UpdateAuthorHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:43:49.659Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "OrderItemDto.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\Dtos\\OrderItemDto.cs",
-              "RelativeDocumentMoniker": "DataRepository.Core\\Dtos\\OrderItemDto.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\Dtos\\OrderItemDto.cs",
-              "RelativeToolTip": "DataRepository.Core\\Dtos\\OrderItemDto.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAAABIAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:42:40.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\Interfaces\\IUnitOfWork.cs",
-              "RelativeDocumentMoniker": "DataRepository.Core\\Interfaces\\IUnitOfWork.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\Interfaces\\IUnitOfWork.cs",
-              "RelativeToolTip": "DataRepository.Core\\Interfaces\\IUnitOfWork.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:10:40.508Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepo.Core\\UnitOfWork.cs",
-              "RelativeDocumentMoniker": "DataRepo.Core\\UnitOfWork.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepo.Core\\UnitOfWork.cs",
-              "RelativeToolTip": "DataRepo.Core\\UnitOfWork.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:06:46.385Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "OrderRepo.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepo.Core\\Repositories\\OrderRepo.cs",
-              "RelativeDocumentMoniker": "DataRepo.Core\\Repositories\\OrderRepo.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepo.Core\\Repositories\\OrderRepo.cs",
-              "RelativeToolTip": "DataRepo.Core\\Repositories\\OrderRepo.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T11:49:59.713Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "IOrderServices.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\Interfaces\\IOrderServices.cs",
-              "RelativeDocumentMoniker": "DataRepository.Core\\Interfaces\\IOrderServices.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\Interfaces\\IOrderServices.cs",
-              "RelativeToolTip": "DataRepository.Core\\Interfaces\\IOrderServices.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T11:46:49.952Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "CheckOutRequestDto.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\Dtos\\CartDtos\\CheckOutRequestDto.cs",
-              "RelativeDocumentMoniker": "DataRepository.Core\\Dtos\\CartDtos\\CheckOutRequestDto.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\Dtos\\CartDtos\\CheckOutRequestDto.cs",
-              "RelativeToolTip": "DataRepository.Core\\Dtos\\CartDtos\\CheckOutRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAkAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T10:59:52.671Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "PaymentService.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\Services\\PaymentService.cs",
-              "RelativeDocumentMoniker": "BookAdict\\Services\\PaymentService.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\Services\\PaymentService.cs",
-              "RelativeToolTip": "BookAdict\\Services\\PaymentService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T10:45:31.166Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\Program.cs",
-              "RelativeDocumentMoniker": "BookAdict\\Program.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\Program.cs",
-              "RelativeToolTip": "BookAdict\\Program.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAADwvxwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T10:35:53.434Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\appsettings.json",
-              "RelativeDocumentMoniker": "BookAdict\\appsettings.json",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\BookAdict\\appsettings.json",
-              "RelativeToolTip": "BookAdict\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-04-22T09:13:33.474Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "OrderItem.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\Models\\OrderItem.cs",
-              "RelativeDocumentMoniker": "DataRepository.Core\\Models\\OrderItem.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\Models\\OrderItem.cs",
-              "RelativeToolTip": "DataRepository.Core\\Models\\OrderItem.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAUwCAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:17:06.084Z"
+              "WhenOpened": "2024-06-11T10:12:23.332Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "JWTConfig.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\HelperModels\\JWTConfig.cs",
-              "RelativeDocumentMoniker": "DataRepository.Core\\HelperModels\\JWTConfig.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\HelperModels\\JWTConfig.cs",
-              "RelativeToolTip": "DataRepository.Core\\HelperModels\\JWTConfig.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "UpdateAuthorRequest.cs",
+              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Commands\\AuthorCommands\\UpdateAuthorRequest.cs",
+              "RelativeDocumentMoniker": "BookAddict.Application\\Commands\\AuthorCommands\\UpdateAuthorRequest.cs",
+              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAddict.Application\\Commands\\AuthorCommands\\UpdateAuthorRequest.cs",
+              "RelativeToolTip": "BookAddict.Application\\Commands\\AuthorCommands\\UpdateAuthorRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:14:14.995Z"
+              "WhenOpened": "2024-06-11T10:09:58.903Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepo.Core\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "DataRepo.Core\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepo.Core\\ApplicationDbContext.cs",
-              "RelativeToolTip": "DataRepo.Core\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBIAAAAIAAAA",
+              "DocumentIndex": 0,
+              "Title": "AuthorController.cs",
+              "DocumentMoniker": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\Controllers\\AuthorController.cs",
+              "RelativeDocumentMoniker": "BookAdict\\Controllers\\AuthorController.cs",
+              "ToolTip": "D:\\project dublicate\\BA\\BookAdict_Backend\\BookAdict\\Controllers\\AuthorController.cs",
+              "RelativeToolTip": "BookAdict\\Controllers\\AuthorController.cs",
+              "ViewState": "AQIAADYAAAAAAAAAAAAgwE0AAAB8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T07:14:24.252Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Order.cs",
-              "DocumentMoniker": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "DataRepository.Core\\Models\\Order.cs",
-              "ToolTip": "D:\\Projects\\BookAddict\\BookAdict_Backend\\DataRepository.Core\\Models\\Order.cs",
-              "RelativeToolTip": "DataRepository.Core\\Models\\Order.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAA1wA0AAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T07:11:24.574Z"
+              "WhenOpened": "2024-06-11T10:09:38.929Z",
+              "EditorCaption": ""
             }
           ]
         }

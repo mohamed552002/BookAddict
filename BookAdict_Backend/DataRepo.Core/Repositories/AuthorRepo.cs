@@ -1,5 +1,5 @@
-﻿using DataRepository.Core.Interfaces;
-using DataRepository.Core.Models;
+﻿using BookAddict.Application.Interfaces;
+using BookAddict.Domain.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace DataRepo.Ef.Repositories
@@ -33,7 +33,7 @@ namespace DataRepo.Ef.Repositories
 
         public async Task<IEnumerable<Author>> GetAuthorsAsync()
         {
-          return await _context.Author.ToListAsync();
+          return await _context.Author.AsNoTracking().ToListAsync();
         }
 
         public async Task<IEnumerable<Author>> SearchAuthors(string searchText)

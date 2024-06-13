@@ -16,12 +16,12 @@
       <div *ngFor="let item of cartItems" class="dropdown-item  align-content-center d-flex align-items-center">
         <img class="cart-img me-2" [src]="cartApi.localhost + item.imgUrl">
         <p class="m-0 me-3">{{item.name}}</p>
-        <p class="price m-0 me-2 ms-auto">{{item.price | currency}}</p>
+        <p class="price m-0 me-2 ms-auto">{{item.singlePrice | currency}}</p>
         <div (click)="deleteFromCart(item)">
           <fa-icon class="delete-item"  [icon]="faTrash"></fa-icon>
         </div>
       </div>
-      <a class="" href="#"><button class="btn btn-success h-100 w-100">Proceed to checkout</button></a>
+      <a class="" routerLink="/orderConfirmation"><button (click)="checkout()" class="btn btn-success h-100 w-100">Proceed to checkout</button></a>
     </div>
     <div *ngIf="isCartEmpty" class=" p-2">
       <h6>There is no items in Cart</h6>

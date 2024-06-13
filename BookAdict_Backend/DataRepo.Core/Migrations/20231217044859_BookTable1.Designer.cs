@@ -25,7 +25,7 @@ namespace DataRepo.Ef.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("DataRepository.Core.Models.Book", b =>
+            modelBuilder.Entity("BookAddict.Domain.Models.Book", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()

@@ -46,3 +46,5 @@ BookAdict_Backend/BookAdict/appsettings
 
 # Front Files
 BookAdict_Frontend/BookAddict/src/app/header/cart/order-confirmation
+
+BookAdict_Backend/.vs

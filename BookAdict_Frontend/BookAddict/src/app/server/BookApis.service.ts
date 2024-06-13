@@ -35,4 +35,7 @@ export class BookApis extends BaseApi{
   getBookByCategoryid(categoryId:number):Observable<any>{
     return this.http.get(`${this.apiUrl}GetBooksByCategoryId/${categoryId}`,)
   }
+  deleteBook(id:number){
+    return this.http.delete(`${this.apiUrl}DeleteBook/${id}`)
+  }
 }

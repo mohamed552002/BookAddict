@@ -1,0 +1,76 @@
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.deps.json
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.runtimeconfig.json
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.dll
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.pdb
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Domain.dll
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Persistance.dll
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Persistance.pdb
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Domain.pdb
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.csproj.AssemblyReference.cache
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.AssemblyInfoInputs.cache
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.AssemblyInfo.cs
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.csproj.CoreCompileInputs.cache
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.sourcelink.json
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddi.11649F0F.Up2Date
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.dll
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\refint\BookAddict.Application.dll
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.pdb
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.genruntimeconfig.cache
+D:\project dublicate\BookAddict-main\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\ref\BookAddict.Application.dll
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.deps.json
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.runtimeconfig.json
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.dll
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.pdb
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Domain.dll
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Persistance.dll
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Persistance.pdb
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Domain.pdb
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.csproj.AssemblyReference.cache
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.AssemblyInfoInputs.cache
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.AssemblyInfo.cs
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.csproj.CoreCompileInputs.cache
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.sourcelink.json
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddi.11649F0F.Up2Date
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.dll
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\refint\BookAddict.Application.dll
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.pdb
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.genruntimeconfig.cache
+D:\Projects\bookAddict v2\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\ref\BookAddict.Application.dll
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.csproj.AssemblyReference.cache
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.AssemblyInfoInputs.cache
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.AssemblyInfo.cs
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.csproj.CoreCompileInputs.cache
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.sourcelink.json
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.deps.json
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.runtimeconfig.json
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.dll
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.pdb
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Domain.dll
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Domain.pdb
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddi.11649F0F.Up2Date
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.dll
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\refint\BookAddict.Application.dll
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.pdb
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.genruntimeconfig.cache
+D:\Projects\BookAddict\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\ref\BookAddict.Application.dll
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.deps.json
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.runtimeconfig.json
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.dll
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Application.pdb
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Domain.dll
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\bin\Debug\net6.0\BookAddict.Domain.pdb
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.csproj.AssemblyReference.cache
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.AssemblyInfoInputs.cache
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.AssemblyInfo.cs
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.csproj.CoreCompileInputs.cache
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.sourcelink.json
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddi.11649F0F.Up2Date
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.dll
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\refint\BookAddict.Application.dll
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.pdb
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\BookAddict.Application.genruntimeconfig.cache
+D:\project dublicate\BA\BookAdict_Backend\BookAddict.Application\obj\Debug\net6.0\ref\BookAddict.Application.dll

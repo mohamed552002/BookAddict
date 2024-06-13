@@ -1,5 +1,5 @@
-﻿using DataRepository.Core.Dtos.CartDtos;
-using DataRepository.Core.Interfaces;
+﻿using BookAddict.Application.DTOS.CartDtos;
+using BookAddict.Application.Interfaces;
 using Microsoft.Extensions.Caching.Memory;
 using System;
 using System.Collections.Generic;
