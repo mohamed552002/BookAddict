@@ -1,0 +1,68 @@
+
+.checkout-container{
+padding: 1% 2% ;
+}
+.items{
+  background-color: white;
+  border-radius: 10px;
+  height: fit-content;
+  margin-left: -10px;
+}
+.items img{
+  height: 200px;
+  width: 180px;
+  border-radius: 10px;
+}
+.items .quantity{
+  background-color: #eee;
+  align-items: center;
+  width: 90px;
+  height: 30px;
+  justify-content: center;
+  text-align: center;
+  border-radius: 35px;
+}
+.items .quantity p{
+  margin: 0 10px;
+}
+.items .quantity button{
+  background-color: white;
+  border-radius: 50px;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.items .delete-item button{
+  background-color: #eee;
+  border-radius: 50px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.summary{
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  font-weight: 450;
+}
+.summary .head{
+  font-size: x-large;
+  font-weight: 450;
+}
+.summary .promocode-form input{
+  border-radius: 50px;
+}
+.total-price p{
+  font-size: x-large;
+}
+.checkout-btn{
+  border-radius: 50px;
+  height: 45px;
+}
+
